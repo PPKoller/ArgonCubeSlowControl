@@ -115,4 +115,5 @@
   (lib (name Transformer_THT)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints/Transformer_THT.pretty)(options "")(descr ""))
   (lib (name Valve)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints/Valve.pretty)(options "")(descr ""))
   (lib (name Varistor)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints/Varistor.pretty)(options "")(descr ""))
+  (lib (name uti-footprints)(type KiCad)(uri ${KIPRJMOD}/uti-footprints)(options "")(descr ""))
 )

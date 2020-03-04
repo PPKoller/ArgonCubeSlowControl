@@ -1,0 +1,111 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 12143 8268
+encoding utf-8
+Sheet 14 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 7000 2900 2    50   Input ~ 0
+MOSFET_5V
+Text GLabel 5000 2900 0    50   Input ~ 0
+EXT_5V
+$Comp
+L DMN1150UFB-7B:DMN1150UFB-7B Q1
+U 1 1 5E61F96A
+P 5900 3900
+F 0 "Q1" H 6180 3946 50  0000 L CNN
+F 1 "DMN1150UFB-7B" H 6180 3855 50  0000 L CNN
+F 2 "DFN100X60X53-3N" H 5900 3900 50  0001 L BNN
+F 3 "Diodes" H 5900 3900 50  0001 L BNN
+	1    5900 3900
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 4000 0    50   Input ~ 0
+GPIO_3V3
+$Comp
+L Device:R R?
+U 1 1 5E6297F3
+P 5400 4250
+AR Path="/5E569848/5E6297F3" Ref="R?"  Part="1" 
+AR Path="/5E5F905B/5E6297F3" Ref="R46"  Part="1" 
+F 0 "R46" V 5607 4250 50  0000 C CNN
+F 1 "10kΩ" V 5516 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5330 4250 50  0001 C CNN
+F 3 "~" H 5400 4250 50  0001 C CNN
+	1    5400 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 4500 6000 4400
+Wire Wire Line
+	5400 4000 5400 4100
+Wire Wire Line
+	5400 4400 5400 4500
+Wire Wire Line
+	5400 4500 6000 4500
+Wire Wire Line
+	6000 4500 6000 4600
+Connection ~ 6000 4500
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0111
+U 1 1 5E62A8A8
+P 6000 4700
+F 0 "#0111" H 6050 4750 50  0001 C CNN
+F 1 "GND" H 6078 4738 42  0000 L CNN
+F 2 "" H 6000 4700 50  0001 C CNN
+F 3 "" H 6000 4700 50  0001 C CNN
+	1    6000 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4000 5000 4000
+Connection ~ 5400 4000
+$Comp
+L FDN360P:NVTR0202PLT1G Q2
+U 1 1 5E62C5F8
+P 6100 2900
+F 0 "Q2" V 6335 2900 50  0000 C CNN
+F 1 "NVTR0202PLT1G" V 6244 2900 50  0000 C CNN
+F 2 "SSOT-3" H 6100 2900 50  0001 L BNN
+F 3 "" H 6100 2900 50  0001 C CNN
+	1    6100 2900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6000 3100 6000 3400
+Wire Wire Line
+	5900 2900 5400 2900
+Wire Wire Line
+	5400 2900 5400 3000
+$Comp
+L Device:R R?
+U 1 1 5E62F88D
+P 5400 3150
+AR Path="/5E569848/5E62F88D" Ref="R?"  Part="1" 
+AR Path="/5E5F905B/5E62F88D" Ref="R47"  Part="1" 
+F 0 "R47" V 5607 3150 50  0000 C CNN
+F 1 "10kΩ" V 5516 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5330 3150 50  0001 C CNN
+F 3 "~" H 5400 3150 50  0001 C CNN
+	1    5400 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 3300 5400 3400
+Wire Wire Line
+	5400 3400 6000 3400
+Connection ~ 6000 3400
+Wire Wire Line
+	5400 2900 5000 2900
+Connection ~ 5400 2900
+Wire Wire Line
+	6300 2900 7000 2900
+$EndSCHEMATC

@@ -1,0 +1,894 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 12143 8268
+encoding utf-8
+Sheet 13 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+NoConn ~ 10550 3150
+Wire Wire Line
+	11250 4150 11250 4950
+Wire Wire Line
+	11250 3050 11250 3850
+$Comp
+L Device:C C44
+U 1 1 5E59CD10
+P 11250 4000
+AR Path="/5E569848/5E59CD10" Ref="C44"  Part="1" 
+AR Path="/5E5F905B/5E59CD10" Ref="C?"  Part="1" 
+F 0 "C44" V 11502 4000 50  0000 C CNN
+F 1 "3nF" V 11411 4000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11288 3850 50  0001 C CNN
+F 3 "~" H 11250 4000 50  0001 C CNN
+	1    11250 4000
+	-1   0    0    1   
+$EndComp
+Text Notes 9500 1350 0    50   ~ 0
+O4
+Text Notes 9500 1250 0    50   ~ 0
+O3
+Text Notes 9500 1150 0    50   ~ 0
+O2
+Text Notes 9500 1050 0    50   ~ 0
+O1
+Text Notes 9500 950  0    50   ~ 0
+SYNC
+Text Notes 9500 850  0    50   ~ 0
+UTI-OUT
+Text Notes 9500 750  0    50   ~ 0
+GND
+Wire Wire Line
+	11250 4950 9850 4950
+Wire Wire Line
+	10450 3050 11250 3050
+Wire Wire Line
+	10450 3150 10450 3050
+Wire Wire Line
+	9850 4150 9850 4950
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0110
+U 1 1 5E624B4A
+P 10300 4850
+AR Path="/5E569848/5E624B4A" Ref="#0110"  Part="1" 
+AR Path="/5E5F905B/5E624B4A" Ref="#?"  Part="1" 
+F 0 "#0110" H 10350 4900 50  0001 C CNN
+F 1 "GND" H 10378 4888 42  0000 L CNN
+F 2 "" H 10300 4850 50  0001 C CNN
+F 3 "" H 10300 4850 50  0001 C CNN
+	1    10300 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 10350 4150
+Wire Wire Line
+	10300 4150 10300 4750
+Wire Wire Line
+	10350 4150 10300 4150
+Wire Wire Line
+	8750 850  9250 850 
+Connection ~ 8750 850 
+Wire Wire Line
+	10150 4250 10150 4150
+Wire Wire Line
+	8750 4250 10150 4250
+Wire Wire Line
+	8750 850  8750 4250
+Connection ~ 10450 4550
+Wire Wire Line
+	10350 4550 10450 4550
+Wire Wire Line
+	10350 4500 10350 4550
+Wire Wire Line
+	10350 4150 10350 4200
+$Comp
+L Device:R R44
+U 1 1 5E60FAD6
+P 10350 4350
+AR Path="/5E569848/5E60FAD6" Ref="R44"  Part="1" 
+AR Path="/5E5F905B/5E60FAD6" Ref="R?"  Part="1" 
+F 0 "R44" V 10557 4350 50  0000 C CNN
+F 1 "1kΩ" V 10466 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10280 4350 50  0001 C CNN
+F 3 "~" H 10350 4350 50  0001 C CNN
+	1    10350 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 4550 10550 4500
+Wire Wire Line
+	10450 4550 10550 4550
+Wire Wire Line
+	10450 4150 10450 4550
+Wire Wire Line
+	4600 4650 10700 4650
+Connection ~ 10550 4150
+Wire Wire Line
+	10700 4150 10700 4650
+Wire Wire Line
+	10550 4150 10700 4150
+Wire Wire Line
+	10550 4150 10550 4200
+$Comp
+L Device:R R45
+U 1 1 5E5EE573
+P 10550 4350
+AR Path="/5E569848/5E5EE573" Ref="R45"  Part="1" 
+AR Path="/5E5F905B/5E5EE573" Ref="R?"  Part="1" 
+F 0 "R45" V 10757 4350 50  0000 C CNN
+F 1 "20kΩ" V 10666 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 4350 50  0001 C CNN
+F 3 "~" H 10550 4350 50  0001 C CNN
+	1    10550 4350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10350 3150
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0109
+U 1 1 5E5E37D1
+P 9150 750
+AR Path="/5E569848/5E5E37D1" Ref="#0109"  Part="1" 
+AR Path="/5E5F905B/5E5E37D1" Ref="#?"  Part="1" 
+F 0 "#0109" H 9200 800 50  0001 C CNN
+F 1 "GND" V 9033 787 42  0000 C CNN
+F 2 "" H 9150 750 50  0001 C CNN
+F 3 "" H 9150 750 50  0001 C CNN
+	1    9150 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x07_Male J13
+U 1 1 5E5E0B6B
+P 9450 1050
+AR Path="/5E569848/5E5E0B6B" Ref="J13"  Part="1" 
+AR Path="/5E5F905B/5E5E0B6B" Ref="J?"  Part="1" 
+F 0 "J13" H 9422 982 50  0000 R CNN
+F 1 "Conn_01x07_Male" H 9422 1073 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 9450 1050 50  0001 C CNN
+F 3 "~" H 9450 1050 50  0001 C CNN
+	1    9450 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0107
+U 1 1 5E5DC340
+P 6500 4500
+AR Path="/5E569848/5E5DC340" Ref="#0107"  Part="1" 
+AR Path="/5E5F905B/5E5DC340" Ref="#?"  Part="1" 
+F 0 "#0107" H 6550 4550 50  0001 C CNN
+F 1 "GND" V 6383 4537 42  0000 C CNN
+F 2 "" H 6500 4500 50  0001 C CNN
+F 3 "" H 6500 4500 50  0001 C CNN
+	1    6500 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 4500 6600 4500
+Connection ~ 6700 4500
+Wire Wire Line
+	6850 4500 6700 4500
+Wire Wire Line
+	8850 1050 9250 1050
+Wire Wire Line
+	8850 1500 8850 1050
+Wire Wire Line
+	8500 1500 8850 1500
+Wire Wire Line
+	8950 1150 9250 1150
+Wire Wire Line
+	8950 1650 8950 1150
+Wire Wire Line
+	8500 1650 8950 1650
+Wire Wire Line
+	9050 1250 9250 1250
+Wire Wire Line
+	9050 1800 9050 1250
+Wire Wire Line
+	8500 1800 9050 1800
+Wire Wire Line
+	9150 1350 9250 1350
+Wire Wire Line
+	9150 1950 9150 1350
+Wire Wire Line
+	8500 1950 9150 1950
+NoConn ~ 8500 1350
+NoConn ~ 8500 1200
+Wire Wire Line
+	4800 950  9250 950 
+Wire Wire Line
+	4800 2650 4800 950 
+Wire Wire Line
+	5100 2650 4800 2650
+Connection ~ 4900 2350
+Wire Wire Line
+	4600 850  8750 850 
+Wire Wire Line
+	4600 2350 4600 850 
+Wire Wire Line
+	4900 2350 4600 2350
+Wire Wire Line
+	4900 2350 5100 2350
+Wire Wire Line
+	4900 2500 4900 2350
+Wire Wire Line
+	5100 2500 4900 2500
+NoConn ~ 8500 4200
+NoConn ~ 8500 2700
+NoConn ~ 5100 2950
+NoConn ~ 5100 2800
+NoConn ~ 5100 2200
+NoConn ~ 5100 1700
+Wire Wire Line
+	4900 3250 5100 3250
+Wire Wire Line
+	4800 3100 5100 3100
+Wire Wire Line
+	4700 1200 5100 1200
+Wire Wire Line
+	8500 4050 9050 4050
+Wire Wire Line
+	8500 3600 9150 3600
+Wire Wire Line
+	8500 3300 9250 3300
+Wire Wire Line
+	8500 3900 9550 3900
+Wire Wire Line
+	8500 3750 9450 3750
+Wire Wire Line
+	8500 3450 9350 3450
+Wire Wire Line
+	8500 3150 9250 3150
+Wire Wire Line
+	5000 3700 5100 3700
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0108
+U 1 1 5E6BE78B
+P 9750 3150
+AR Path="/5E569848/5E6BE78B" Ref="#0108"  Part="1" 
+AR Path="/5E5F905B/5E6BE78B" Ref="#?"  Part="1" 
+F 0 "#0108" H 9800 3200 50  0001 C CNN
+F 1 "GND" V 9633 3187 42  0000 C CNN
+F 2 "" H 9750 3150 50  0001 C CNN
+F 3 "" H 9750 3150 50  0001 C CNN
+	1    9750 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 2650 4600 4650
+Wire Wire Line
+	2250 2650 4600 2650
+Wire Wire Line
+	10250 4550 10250 4150
+Wire Wire Line
+	9050 4550 10250 4550
+Wire Wire Line
+	9050 4050 9050 4550
+Wire Wire Line
+	10050 4450 10050 4150
+Wire Wire Line
+	9150 4450 10050 4450
+Wire Wire Line
+	9150 3600 9150 4450
+Wire Wire Line
+	9950 4350 9950 4150
+Wire Wire Line
+	9250 4350 9950 4350
+Wire Wire Line
+	9250 3300 9250 4350
+Wire Wire Line
+	10250 2650 10250 3150
+Wire Wire Line
+	9550 2650 10250 2650
+Wire Wire Line
+	9550 3900 9550 2650
+Wire Wire Line
+	10150 2750 10150 3150
+Wire Wire Line
+	9450 2750 10150 2750
+Wire Wire Line
+	9450 3750 9450 2750
+Wire Wire Line
+	10050 2850 10050 3150
+Wire Wire Line
+	9350 2850 10050 2850
+Wire Wire Line
+	9350 3450 9350 2850
+Wire Wire Line
+	9950 2950 9950 3150
+Wire Wire Line
+	9250 2950 9950 2950
+Wire Wire Line
+	9250 3150 9250 2950
+$Comp
+L PIC16F1933-I_SO:PIC16F1933-I_SO U18
+U 1 1 5E583AF2
+P 6800 2700
+AR Path="/5E569848/5E583AF2" Ref="U18"  Part="1" 
+AR Path="/5E5F905B/5E583AF2" Ref="U?"  Part="1" 
+F 0 "U18" H 6800 4470 50  0000 C CNN
+F 1 "PIC16F1933-I_SO" H 6800 4379 50  0000 C CNN
+F 2 "SOIC127P1030X265-28N" H 6800 2700 50  0001 L BNN
+F 3 "" H 6800 2700 50  0001 C CNN
+	1    6800 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5900 4150 5900
+Wire Wire Line
+	4450 5900 5000 5900
+Wire Wire Line
+	5000 3700 5000 5900
+$Comp
+L Device:R R43
+U 1 1 5E64EE5A
+P 4300 5900
+AR Path="/5E569848/5E64EE5A" Ref="R43"  Part="1" 
+AR Path="/5E5F905B/5E64EE5A" Ref="R?"  Part="1" 
+F 0 "R43" V 4507 5900 50  0000 C CNN
+F 1 "10kΩ" V 4416 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4230 5900 50  0001 C CNN
+F 3 "~" H 4300 5900 50  0001 C CNN
+	1    4300 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 4650 3950 4650
+Wire Wire Line
+	3950 4650 3950 5150
+Connection ~ 3950 5150
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0106
+U 1 1 5E61E72E
+P 3400 5250
+AR Path="/5E569848/5E61E72E" Ref="#0106"  Part="1" 
+AR Path="/5E5F905B/5E61E72E" Ref="#?"  Part="1" 
+F 0 "#0106" H 3450 5300 50  0001 C CNN
+F 1 "GND" H 3478 5288 42  0000 L CNN
+F 2 "" H 3400 5250 50  0001 C CNN
+F 3 "" H 3400 5250 50  0001 C CNN
+	1    3400 5250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 5900
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U0109
+U 1 1 5E614AEF
+P 3400 4750
+AR Path="/5E569848/5E614AEF" Ref="#U0109"  Part="1" 
+AR Path="/5E5F905B/5E614AEF" Ref="#U?"  Part="1" 
+F 0 "#U0109" H 3450 4800 50  0001 C CNN
+F 1 "GND" H 3478 4788 42  0000 L CNN
+F 2 "" H 3400 4750 50  0001 C CNN
+F 3 "" H 3400 4750 50  0001 C CNN
+	1    3400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C43
+U 1 1 5E614AE3
+P 3550 4650
+AR Path="/5E569848/5E614AE3" Ref="C43"  Part="1" 
+AR Path="/5E5F905B/5E614AE3" Ref="C?"  Part="1" 
+F 0 "C43" V 3802 4650 50  0000 C CNN
+F 1 "1nF" V 3711 4650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3588 4500 50  0001 C CNN
+F 3 "~" H 3550 4650 50  0001 C CNN
+	1    3550 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C42
+U 1 1 5E614ADD
+P 3550 5150
+AR Path="/5E569848/5E614ADD" Ref="C42"  Part="1" 
+AR Path="/5E5F905B/5E614ADD" Ref="C?"  Part="1" 
+F 0 "C42" V 3802 5150 50  0000 C CNN
+F 1 "100nF" V 3711 5150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3588 5000 50  0001 C CNN
+F 3 "~" H 3550 5150 50  0001 C CNN
+	1    3550 5150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3950 5650
+Wire Wire Line
+	3950 5150 3950 5650
+Wire Wire Line
+	3950 5150 3700 5150
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U0107
+U 1 1 5E614AD4
+P 3400 5750
+AR Path="/5E569848/5E614AD4" Ref="#U0107"  Part="1" 
+AR Path="/5E5F905B/5E614AD4" Ref="#U?"  Part="1" 
+F 0 "#U0107" H 3450 5800 50  0001 C CNN
+F 1 "GND" H 3478 5788 42  0000 L CNN
+F 2 "" H 3400 5750 50  0001 C CNN
+F 3 "" H 3400 5750 50  0001 C CNN
+	1    3400 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C41
+U 1 1 5E614ACE
+P 3550 5650
+AR Path="/5E569848/5E614ACE" Ref="C41"  Part="1" 
+AR Path="/5E5F905B/5E614ACE" Ref="C?"  Part="1" 
+F 0 "C41" V 3802 5650 50  0000 C CNN
+F 1 "1uF" V 3711 5650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3588 5500 50  0001 C CNN
+F 3 "~" H 3550 5650 50  0001 C CNN
+	1    3550 5650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 5650 3700 5650
+Wire Wire Line
+	3950 5900 3950 5650
+Wire Wire Line
+	1750 3400 1950 3400
+Connection ~ 2250 2650
+Wire Wire Line
+	2250 3100 2250 2650
+Connection ~ 2250 1650
+Wire Wire Line
+	2250 1150 2250 1650
+Wire Wire Line
+	2000 1150 2250 1150
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U0106
+U 1 1 5E5F7E5A
+P 1700 1250
+AR Path="/5E569848/5E5F7E5A" Ref="#U0106"  Part="1" 
+AR Path="/5E5F905B/5E5F7E5A" Ref="#U?"  Part="1" 
+F 0 "#U0106" H 1750 1300 50  0001 C CNN
+F 1 "GND" H 1778 1288 42  0000 L CNN
+F 2 "" H 1700 1250 50  0001 C CNN
+F 3 "" H 1700 1250 50  0001 C CNN
+	1    1700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U0105
+U 1 1 5E5F7E54
+P 1700 1750
+AR Path="/5E569848/5E5F7E54" Ref="#U0105"  Part="1" 
+AR Path="/5E5F905B/5E5F7E54" Ref="#U?"  Part="1" 
+F 0 "#U0105" H 1750 1800 50  0001 C CNN
+F 1 "GND" H 1778 1788 42  0000 L CNN
+F 2 "" H 1700 1750 50  0001 C CNN
+F 3 "" H 1700 1750 50  0001 C CNN
+	1    1700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C40
+U 1 1 5E5F7E4E
+P 1850 1150
+AR Path="/5E569848/5E5F7E4E" Ref="C40"  Part="1" 
+AR Path="/5E5F905B/5E5F7E4E" Ref="C?"  Part="1" 
+F 0 "C40" V 2102 1150 50  0000 C CNN
+F 1 "1nF" V 2011 1150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 1000 50  0001 C CNN
+F 3 "~" H 1850 1150 50  0001 C CNN
+	1    1850 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C39
+U 1 1 5E5F7E48
+P 1850 1650
+AR Path="/5E569848/5E5F7E48" Ref="C39"  Part="1" 
+AR Path="/5E5F905B/5E5F7E48" Ref="C?"  Part="1" 
+F 0 "C39" V 2102 1650 50  0000 C CNN
+F 1 "100nF" V 2011 1650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 1500 50  0001 C CNN
+F 3 "~" H 1850 1650 50  0001 C CNN
+	1    1850 1650
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2250 2150
+Wire Wire Line
+	2250 1650 2250 2150
+Wire Wire Line
+	2250 1650 2000 1650
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U0104
+U 1 1 5E5F7E38
+P 1700 2250
+AR Path="/5E569848/5E5F7E38" Ref="#U0104"  Part="1" 
+AR Path="/5E5F905B/5E5F7E38" Ref="#U?"  Part="1" 
+F 0 "#U0104" H 1750 2300 50  0001 C CNN
+F 1 "GND" H 1778 2288 42  0000 L CNN
+F 2 "" H 1700 2250 50  0001 C CNN
+F 3 "" H 1700 2250 50  0001 C CNN
+	1    1700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U0103
+U 1 1 5E5F7E32
+P 1700 2750
+AR Path="/5E569848/5E5F7E32" Ref="#U0103"  Part="1" 
+AR Path="/5E5F905B/5E5F7E32" Ref="#U?"  Part="1" 
+F 0 "#U0103" H 1750 2800 50  0001 C CNN
+F 1 "GND" H 1778 2788 42  0000 L CNN
+F 2 "" H 1700 2750 50  0001 C CNN
+F 3 "" H 1700 2750 50  0001 C CNN
+	1    1700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C38
+U 1 1 5E5F7E2C
+P 1850 2150
+AR Path="/5E569848/5E5F7E2C" Ref="C38"  Part="1" 
+AR Path="/5E5F905B/5E5F7E2C" Ref="C?"  Part="1" 
+F 0 "C38" V 2102 2150 50  0000 C CNN
+F 1 "1uF" V 2011 2150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 2000 50  0001 C CNN
+F 3 "~" H 1850 2150 50  0001 C CNN
+	1    1850 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C37
+U 1 1 5E5F7E26
+P 1850 2650
+AR Path="/5E569848/5E5F7E26" Ref="C37"  Part="1" 
+AR Path="/5E5F905B/5E5F7E26" Ref="C?"  Part="1" 
+F 0 "C37" V 2102 2650 50  0000 C CNN
+F 1 "10uF" V 2011 2650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1888 2500 50  0001 C CNN
+F 3 "~" H 1850 2650 50  0001 C CNN
+	1    1850 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 2150 2000 2150
+Wire Wire Line
+	2250 2650 2250 2150
+Wire Wire Line
+	2250 2650 2000 2650
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0105
+U 1 1 5E5EF773
+P 1750 3500
+AR Path="/5E569848/5E5EF773" Ref="#0105"  Part="1" 
+AR Path="/5E5F905B/5E5EF773" Ref="#?"  Part="1" 
+F 0 "#0105" H 1800 3550 50  0001 C CNN
+F 1 "GND" H 1828 3538 42  0000 L CNN
+F 2 "" H 1750 3500 50  0001 C CNN
+F 3 "" H 1750 3500 50  0001 C CNN
+	1    1750 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 4150
+Wire Wire Line
+	2250 4150 2250 3700
+Connection ~ 2250 4650
+Wire Wire Line
+	2250 4150 2250 4650
+Wire Wire Line
+	2000 4150 2250 4150
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U0102
+U 1 1 5E5E5435
+P 1700 4250
+AR Path="/5E569848/5E5E5435" Ref="#U0102"  Part="1" 
+AR Path="/5E5F905B/5E5E5435" Ref="#U?"  Part="1" 
+F 0 "#U0102" H 1750 4300 50  0001 C CNN
+F 1 "GND" H 1778 4288 42  0000 L CNN
+F 2 "" H 1700 4250 50  0001 C CNN
+F 3 "" H 1700 4250 50  0001 C CNN
+	1    1700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U0101
+U 1 1 5E5E542F
+P 1700 4750
+AR Path="/5E569848/5E5E542F" Ref="#U0101"  Part="1" 
+AR Path="/5E5F905B/5E5E542F" Ref="#U?"  Part="1" 
+F 0 "#U0101" H 1750 4800 50  0001 C CNN
+F 1 "GND" H 1778 4788 42  0000 L CNN
+F 2 "" H 1700 4750 50  0001 C CNN
+F 3 "" H 1700 4750 50  0001 C CNN
+	1    1700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C36
+U 1 1 5E5E5429
+P 1850 4150
+AR Path="/5E569848/5E5E5429" Ref="C36"  Part="1" 
+AR Path="/5E5F905B/5E5E5429" Ref="C?"  Part="1" 
+F 0 "C36" V 2102 4150 50  0000 C CNN
+F 1 "100nF" V 2011 4150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 4000 50  0001 C CNN
+F 3 "~" H 1850 4150 50  0001 C CNN
+	1    1850 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C35
+U 1 1 5E5E5423
+P 1850 4650
+AR Path="/5E569848/5E5E5423" Ref="C35"  Part="1" 
+AR Path="/5E5F905B/5E5E5423" Ref="C?"  Part="1" 
+F 0 "C35" V 2102 4650 50  0000 C CNN
+F 1 "1uF" V 2011 4650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 4500 50  0001 C CNN
+F 3 "~" H 1850 4650 50  0001 C CNN
+	1    1850 4650
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2250 5150
+Wire Wire Line
+	2250 5050 2250 5150
+Wire Wire Line
+	2250 4650 2000 4650
+Wire Wire Line
+	2250 4750 2250 4650
+$Comp
+L Device:L L2
+U 1 1 5E5E1147
+P 2250 4900
+AR Path="/5E569848/5E5E1147" Ref="L2"  Part="1" 
+AR Path="/5E5F905B/5E5E1147" Ref="L?"  Part="1" 
+F 0 "L2" H 2207 4900 50  0000 R CNN
+F 1 "L" V 2349 4900 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 2250 4900 50  0001 C CNN
+F 3 "~" H 2250 4900 50  0001 C CNN
+	1    2250 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0104
+U 1 1 5E5DFECC
+P 1700 5250
+AR Path="/5E569848/5E5DFECC" Ref="#0104"  Part="1" 
+AR Path="/5E5F905B/5E5DFECC" Ref="#?"  Part="1" 
+F 0 "#0104" H 1750 5300 50  0001 C CNN
+F 1 "GND" H 1778 5288 42  0000 L CNN
+F 2 "" H 1700 5250 50  0001 C CNN
+F 3 "" H 1700 5250 50  0001 C CNN
+	1    1700 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0103
+U 1 1 5E5DF91F
+P 1700 5750
+AR Path="/5E569848/5E5DF91F" Ref="#0103"  Part="1" 
+AR Path="/5E5F905B/5E5DF91F" Ref="#?"  Part="1" 
+F 0 "#0103" H 1750 5800 50  0001 C CNN
+F 1 "GND" H 1778 5788 42  0000 L CNN
+F 2 "" H 1700 5750 50  0001 C CNN
+F 3 "" H 1700 5750 50  0001 C CNN
+	1    1700 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C34
+U 1 1 5E5DE5A8
+P 1850 5150
+AR Path="/5E569848/5E5DE5A8" Ref="C34"  Part="1" 
+AR Path="/5E5F905B/5E5DE5A8" Ref="C?"  Part="1" 
+F 0 "C34" V 2102 5150 50  0000 C CNN
+F 1 "100nF" V 2011 5150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 5000 50  0001 C CNN
+F 3 "~" H 1850 5150 50  0001 C CNN
+	1    1850 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 6150 2450 6150
+Connection ~ 2250 6150
+$Comp
+L Device:L L1
+U 1 1 5E5CBC5A
+P 2600 6150
+AR Path="/5E569848/5E5CBC5A" Ref="L1"  Part="1" 
+AR Path="/5E5F905B/5E5CBC5A" Ref="L?"  Part="1" 
+F 0 "L1" V 2790 6150 50  0000 C CNN
+F 1 "L" V 2699 6150 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 2600 6150 50  0001 C CNN
+F 3 "~" H 2600 6150 50  0001 C CNN
+	1    2600 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C33
+U 1 1 5E5CA15D
+P 1850 5650
+AR Path="/5E569848/5E5CA15D" Ref="C33"  Part="1" 
+AR Path="/5E5F905B/5E5CA15D" Ref="C?"  Part="1" 
+F 0 "C33" V 2102 5650 50  0000 C CNN
+F 1 "1uF" V 2011 5650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 5500 50  0001 C CNN
+F 3 "~" H 1850 5650 50  0001 C CNN
+	1    1850 5650
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2250 5650
+Wire Wire Line
+	2250 5150 2000 5150
+Wire Wire Line
+	2250 5650 2250 5150
+Wire Wire Line
+	2250 5650 2000 5650
+Wire Wire Line
+	2250 5650 2250 6150
+Wire Wire Line
+	3000 5900 3950 5900
+$Comp
+L 2-1571552-4:UTI16PinsDIL J12
+U 1 1 5E57E6FF
+P 10150 3650
+AR Path="/5E569848/5E57E6FF" Ref="J12"  Part="1" 
+AR Path="/5E5F905B/5E57E6FF" Ref="J?"  Part="1" 
+F 0 "J12" H 10150 4320 50  0000 C CNN
+F 1 "UTI16PinsDIL" H 10150 4229 50  0000 C CNN
+F 2 "DIPS762W51P254L2032H457Q16" H 10150 3650 50  0001 L BNN
+F 3 "3 A" H 10150 3650 50  0001 L BNN
+F 4 "2-1571552-4" H 10150 3650 50  0001 L BNN "Field4"
+F 5 "Socket" H 10150 3650 50  0001 L BNN "Field5"
+F 6 "https://www.te.com/usa-en/product-2-1571552-4.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 10150 3650 50  0001 L BNN "Field6"
+F 7 "Compliant with Exemptions" H 10150 3650 50  0001 L BNN "Field7"
+	1    10150 3650
+	0    1    1    0   
+$EndComp
+Text GLabel 1650 6150 0    50   Input ~ 0
+MOSFET_5V
+$Comp
+L Regulator_Linear:AP2127N-3.3 U16
+U 1 1 5E59B3EC
+P 2250 3400
+AR Path="/5E569848/5E59B3EC" Ref="U16"  Part="1" 
+AR Path="/5E5F905B/5E59B3EC" Ref="U?"  Part="1" 
+F 0 "U16" H 2250 3642 50  0000 C CNN
+F 1 "AP2127N-3.3" H 2250 3551 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2250 3625 50  0001 C CIN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2127.pdf" H 2250 3400 50  0001 C CNN
+	1    2250 3400
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3950 5900 3950 6150
+Wire Wire Line
+	2150 6850 2350 6850
+Wire Wire Line
+	2150 6750 2450 6750
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0101
+U 1 1 5E5A3241
+P 2150 7150
+AR Path="/5E569848/5E5A3241" Ref="#0101"  Part="1" 
+AR Path="/5E5F905B/5E5A3241" Ref="#?"  Part="1" 
+F 0 "#0101" H 2200 7200 50  0001 C CNN
+F 1 "GND" H 2228 7188 42  0000 L CNN
+F 2 "" H 2150 7150 50  0001 C CNN
+F 3 "" H 2150 7150 50  0001 C CNN
+	1    2150 7150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2150 6950
+NoConn ~ 2150 6650
+$Comp
+L 440247-2:miniUSB P1
+U 1 1 5E583A7B
+P 1950 6850
+AR Path="/5E569848/5E583A7B" Ref="P1"  Part="1" 
+AR Path="/5E5F905B/5E583A7B" Ref="P?"  Part="1" 
+F 0 "P1" H 2280 6896 50  0000 L CNN
+F 1 "miniUSB" H 2280 6805 50  0000 L CNN
+F 2 "TE_440247-2" H 1950 6850 50  0001 L BNN
+F 3 "https://www.te.com/usa-en/product-440247-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 1950 6850 50  0001 L BNN
+F 4 "440247-2" H 1950 6850 50  0001 L BNN "Field4"
+	1    1950 6850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Interface_USB:FT230XS U17
+U 1 1 5E57B531
+P 3850 6850
+AR Path="/5E569848/5E57B531" Ref="U17"  Part="1" 
+AR Path="/5E5F905B/5E57B531" Ref="U?"  Part="1" 
+F 0 "U17" H 3850 7731 50  0000 C CNN
+F 1 "FT230XS" H 3850 7640 50  0000 C CNN
+F 2 "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm" H 4300 6200 50  0001 C CNN
+F 3 "http://www.ftdichip.com/Products/ICs/FT230X.html" H 3850 6850 50  0001 C CNN
+	1    3850 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 6750 3150 6750
+Wire Wire Line
+	2750 6950 2800 6950
+Wire Wire Line
+	2800 6950 2850 6850
+Wire Wire Line
+	3150 7050 3000 7050
+Wire Wire Line
+	3000 7050 3000 6450
+Wire Wire Line
+	3150 6450 3000 6450
+Connection ~ 3000 6450
+Wire Wire Line
+	3000 6450 3000 5900
+$Comp
+L Device:R R42
+U 1 1 5E5CC5E0
+P 2600 6950
+AR Path="/5E569848/5E5CC5E0" Ref="R42"  Part="1" 
+AR Path="/5E5F905B/5E5CC5E0" Ref="R?"  Part="1" 
+F 0 "R42" V 2807 6950 50  0000 C CNN
+F 1 "27Ω" V 2716 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 6950 50  0001 C CNN
+F 3 "~" H 2600 6950 50  0001 C CNN
+	1    2600 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R41
+U 1 1 5E5D6057
+P 2600 6750
+AR Path="/5E569848/5E5D6057" Ref="R41"  Part="1" 
+AR Path="/5E5F905B/5E5D6057" Ref="R?"  Part="1" 
+F 0 "R41" V 2807 6750 50  0000 C CNN
+F 1 "27Ω" V 2716 6750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 6750 50  0001 C CNN
+F 3 "~" H 2600 6750 50  0001 C CNN
+	1    2600 6750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 6850 2400 6950
+Wire Wire Line
+	2400 6950 2450 6950
+Wire Wire Line
+	4900 6550 4900 3250
+Wire Wire Line
+	4800 6450 4800 3100
+Wire Wire Line
+	4700 6950 4700 1200
+Wire Wire Line
+	4550 6450 4800 6450
+Wire Wire Line
+	4550 6550 4900 6550
+Wire Wire Line
+	4550 6950 4700 6950
+Wire Wire Line
+	2850 6850 3150 6850
+NoConn ~ 4550 6650
+NoConn ~ 4550 6750
+NoConn ~ 4550 7050
+NoConn ~ 4550 7150
+NoConn ~ 4550 7250
+Connection ~ 3950 7550
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0102
+U 1 1 5E5B1F84
+P 3950 7650
+AR Path="/5E569848/5E5B1F84" Ref="#0102"  Part="1" 
+AR Path="/5E5F905B/5E5B1F84" Ref="#?"  Part="1" 
+F 0 "#0102" H 4000 7700 50  0001 C CNN
+F 1 "GND" H 4028 7688 42  0000 L CNN
+F 2 "" H 3950 7650 50  0001 C CNN
+F 3 "" H 3950 7650 50  0001 C CNN
+	1    3950 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 7550 3950 7550
+Wire Wire Line
+	2750 6150 3750 6150
+Wire Wire Line
+	1650 6150 2250 6150
+$EndSCHEMATC
