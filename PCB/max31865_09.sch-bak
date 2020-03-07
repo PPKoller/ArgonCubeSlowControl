@@ -42,14 +42,6 @@ Wire Wire Line
 Text Label 5900 1900 0    10   ~ 0
 GND
 Wire Wire Line
-	6500 3600 6700 3600
-Wire Wire Line
-	6700 3600 6700 3400
-Wire Wire Line
-	6700 3400 6800 3400
-Text Label 6500 3600 0    10   ~ 0
-GND
-Wire Wire Line
 	5400 2100 5400 1300
 Wire Wire Line
 	5400 1300 5400 1200
@@ -78,53 +70,6 @@ Wire Wire Line
 	5600 1200 5600 1300
 Text Label 5600 1200 0    10   ~ 0
 VDD
-Wire Wire Line
-	6200 2500 6400 2500
-Wire Wire Line
-	6400 2500 7000 2500
-Wire Wire Line
-	6200 2700 6400 2700
-Wire Wire Line
-	6400 2700 6400 2500
-Connection ~ 6400 2500
-Wire Wire Line
-	6200 2900 7000 2900
-Wire Wire Line
-	6200 3100 7000 3100
-Wire Wire Line
-	7000 3100 7000 2900
-Connection ~ 7000 2900
-Wire Wire Line
-	6200 3700 6800 3700
-Wire Wire Line
-	6800 3800 6800 3700
-Wire Wire Line
-	6200 3300 6500 3300
-Wire Wire Line
-	6500 3400 6500 3300
-Wire Wire Line
-	6400 3500 6200 3500
-Wire Wire Line
-	6200 4400 6300 4400
-Wire Wire Line
-	6300 4400 6300 4500
-Wire Wire Line
-	6900 4200 6900 4100
-Wire Wire Line
-	6900 4200 6800 4200
-Wire Wire Line
-	6800 4200 6700 4200
-Wire Wire Line
-	6700 4200 6700 4100
-Wire Wire Line
-	6200 4200 6300 4200
-Wire Wire Line
-	6300 4200 6300 4100
-Wire Wire Line
-	6700 4100 6300 4100
-Wire Wire Line
-	6800 4100 6800 4200
-Connection ~ 6800 4200
 Wire Wire Line
 	4900 3000 4100 3000
 Wire Wire Line
@@ -258,50 +203,6 @@ F 3 "" H 5600 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_MAX31865-eagle-import:RESISTOR0805_NOOUTLINE R40
-U 1 1 5BC88081
-P 7000 2700
-F 0 "R40" H 7000 2800 50  0000 C CNN
-F 1 "430Ω / 4300Ω 0.1%" H 7000 2600 40  0000 C CNB
-F 2 "Adafruit MAX31865:0805-NO" H 7000 2700 50  0001 C CNN
-F 3 "" H 7000 2700 50  0001 C CNN
-	1    7000 2700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Adafruit_MAX31865-eagle-import:CAP_CERAMIC0805-NOOUTLINE C32
-U 1 1 5BC880C6
-P 6800 4000
-F 0 "C32" V 6710 4049 50  0000 C CNN
-F 1 "100nF" V 6890 4049 50  0000 C CNN
-F 2 "Adafruit MAX31865:0805-NO" H 6800 4000 50  0001 C CNN
-F 3 "" H 6800 4000 50  0001 C CNN
-	1    6800 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Adafruit_MAX31865-eagle-import:SOLDERJUMPER_2WAY SJ28
-U 1 1 5BC8809D
-P 6500 3500
-F 0 "SJ28" H 6300 3350 59  0000 L BNN
-F 1 "SOLDERJUMPER_2WAY" H 6300 3250 59  0000 L BNN
-F 2 "Adafruit MAX31865:SOLDERJUMPER_2WAY_OPEN_NOPASTE" H 6500 3500 50  0001 C CNN
-F 3 "" H 6500 3500 50  0001 C CNN
-	1    6500 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Adafruit_MAX31865-eagle-import:GND #U$073
-U 1 1 5BC880D7
-P 6800 3500
-F 0 "#U$073" H 6800 3500 50  0001 C CNN
-F 1 "GND" H 6740 3400 42  0000 L BNN
-F 2 "" H 6800 3500 50  0001 C CNN
-F 3 "" H 6800 3500 50  0001 C CNN
-	1    6800 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Adafruit_MAX31865-eagle-import:VDD #U$067
 U 1 1 5BC88108
 P 4000 1700
@@ -389,14 +290,6 @@ F 3 "" H 5600 1400 50  0001 C CNN
 	1    5600 1400
 	0    -1   -1   0   
 $EndComp
-Text Notes 8400 3900 0    59   ~ 0
-C3 = 100nF for 100 ohm RTD, 10nF for 1K
-Text Notes 7200 2800 0    59   ~ 0
-R1 = 4x RTD resistance at 0°C (so 400 ohm for a 100 ohm RTD).\nUse high quality 1% or better resistors
-Text Notes 6300 4800 0    59   ~ 0
-SJ1 to GND for 2/4-wire, to FORCE+ for 3-wire
-Text Notes 6300 5000 0    59   ~ 0
-SJ2 closed on 2/3-wire setups, open for 4-wire
 Text GLabel 2400 2400 0    50   Input ~ 0
 SDI_5V
 Text GLabel 2400 2600 0    50   Input ~ 0
@@ -412,78 +305,76 @@ Wire Wire Line
 Wire Wire Line
 	4900 2700 4750 2700
 Wire Wire Line
-	7400 3700 7600 3700
+	6200 2500 6400 2500
 Wire Wire Line
-	7600 3700 7600 3400
+	6400 2500 6900 2500
 Wire Wire Line
-	6800 3700 7400 3700
-Connection ~ 7400 3700
+	6200 2700 6400 2700
 Wire Wire Line
-	6500 3300 7400 3300
-Connection ~ 7400 3300
+	6400 2700 6400 2500
+Connection ~ 6400 2500
 Wire Wire Line
-	7400 4500 7600 4500
+	6200 2900 6900 2900
 Wire Wire Line
-	7600 4500 7600 4200
+	6200 3100 6900 3100
 Wire Wire Line
-	6300 4500 7400 4500
-Connection ~ 7400 4500
+	6900 3100 6900 2900
+Connection ~ 6900 2900
 Wire Wire Line
-	7400 4100 7700 4100
+	6200 3700 6400 3700
 Wire Wire Line
-	7400 4100 6900 4100
-Connection ~ 7400 4100
+	6400 3800 6400 3700
+Wire Wire Line
+	7000 4200 6400 4200
+Wire Wire Line
+	6400 4100 6400 4200
+Connection ~ 6400 4200
 $Comp
-L Adafruit_MAX31865-eagle-import:SOLDERJUMPER SJ?
-U 1 1 5BCE3646
-P 7400 3500
-AR Path="/5BC99DB9/5BCE3646" Ref="SJ?"  Part="1" 
-AR Path="/5BCA1C70/5BCE3646" Ref="SJ29"  Part="1" 
-F 0 "SJ29" H 7300 3600 59  0000 L BNN
-F 1 "SOLDERJUMPER" H 7300 3350 59  0000 L BNN
-F 2 "Adafruit MAX31865:SOLDERJUMPER_ARROW_NOPASTE" H 7400 3500 50  0001 C CNN
-F 3 "" H 7400 3500 50  0001 C CNN
-	1    7400 3500
+L Adafruit_MAX31865-eagle-import:RESISTOR0805_NOOUTLINE R?
+U 1 1 5E6977BA
+P 6900 2700
+AR Path="/5BC99DB9/5E6977BA" Ref="R?"  Part="1" 
+AR Path="/5BCA1911/5E6977BA" Ref="R?"  Part="1" 
+AR Path="/5BCA1C70/5E6977BA" Ref="R40"  Part="1" 
+F 0 "R40" H 6900 2800 50  0000 C CNN
+F 1 "430Ω / 4300Ω 0.1%" H 6900 2600 40  0000 C CNB
+F 2 "Adafruit MAX31865:0805-NO" H 6900 2700 50  0001 C CNN
+F 3 "" H 6900 2700 50  0001 C CNN
+	1    6900 2700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Adafruit_MAX31865-eagle-import:SOLDERJUMPER SJ?
-U 1 1 5BCE364D
-P 7400 4300
-AR Path="/5BC99DB9/5BCE364D" Ref="SJ?"  Part="1" 
-AR Path="/5BCA1C70/5BCE364D" Ref="SJ30"  Part="1" 
-F 0 "SJ30" H 7300 4400 59  0000 L BNN
-F 1 "SOLDERJUMPER" H 7300 4150 59  0000 L BNN
-F 2 "Adafruit MAX31865:SOLDERJUMPER_ARROW_NOPASTE" H 7400 4300 50  0001 C CNN
-F 3 "" H 7400 4300 50  0001 C CNN
-	1    7400 4300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 5BCE3654
-P 8100 3400
-AR Path="/5BC99DB9/5BCE3654" Ref="J?"  Part="1" 
-AR Path="/5BCA1C70/5BCE3654" Ref="J11"  Part="1" 
-F 0 "J11" H 8180 3392 50  0000 L CNN
-F 1 "Conn_01x04" H 8180 3301 50  0000 L CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x04_P3.50mm_Horizontal" H 8100 3400 50  0001 C CNN
-F 3 "~" H 8100 3400 50  0001 C CNN
-	1    8100 3400
+L Adafruit_MAX31865-eagle-import:CAP_CERAMIC0805-NOOUTLINE C?
+U 1 1 5E6977C0
+P 6400 4000
+AR Path="/5BC99DB9/5E6977C0" Ref="C?"  Part="1" 
+AR Path="/5BCA1911/5E6977C0" Ref="C?"  Part="1" 
+AR Path="/5BCA1C70/5E6977C0" Ref="C32"  Part="1" 
+F 0 "C32" V 6310 4049 50  0000 C CNN
+F 1 "100nF" V 6490 4049 50  0000 C CNN
+F 2 "Adafruit MAX31865:0805-NO" H 6400 4000 50  0001 C CNN
+F 3 "" H 6400 4000 50  0001 C CNN
+	1    6400 4000
 	1    0    0    -1  
 $EndComp
+Text Notes 7100 2800 0    59   ~ 0
+R1 = 4x RTD resistance at 0°C (so 400 ohm for a 100 ohm RTD).\nUse high quality 1% or better resistors
 Wire Wire Line
-	7700 4100 7700 3500
+	6200 4200 6400 4200
 Wire Wire Line
-	7600 4200 7800 4200
+	6400 3700 7000 3700
+Connection ~ 6400 3700
 Wire Wire Line
-	7800 4200 7800 3600
+	6200 3300 7000 3300
 Wire Wire Line
-	7800 3600 7900 3600
-Wire Wire Line
-	7700 3500 7900 3500
-Wire Wire Line
-	7600 3400 7900 3400
-Wire Wire Line
-	7400 3300 7900 3300
+	6200 4400 7000 4400
+Text GLabel 7000 3300 2    50   Input ~ 0
+O34
+Text GLabel 7000 3700 2    50   Input ~ 0
+O36
+Text GLabel 7000 4200 2    50   Input ~ 0
+O38
+Text GLabel 7000 4400 2    50   Input ~ 0
+O40
+NoConn ~ 6200 3500
 $EndSCHEMATC
