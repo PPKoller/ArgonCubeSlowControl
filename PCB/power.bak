@@ -334,6 +334,7 @@ F 3 "" H 2150 4400 50  0001 C CNN
 	1    2150 4400
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2500 7400
 NoConn ~ 2500 6600
 NoConn ~ 2500 6100
 NoConn ~ 2000 7200
@@ -347,6 +348,7 @@ NoConn ~ 2000 5900
 NoConn ~ 2000 5700
 NoConn ~ 2000 5600
 NoConn ~ 2000 7300
+NoConn ~ 2000 7400
 $Comp
 L Adafruit_MAX31865-eagle-import:GND #0113
 U 1 1 5E7A5A73
@@ -537,8 +539,4 @@ F 3 "~" H 2250 4850 50  0001 C CNN
 	1    2250 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 7400 2500 7400
-Text GLabel 3100 7400 2    50   Input ~ 0
-EXT_GND
 $EndSCHEMATC

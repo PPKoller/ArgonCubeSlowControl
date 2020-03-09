@@ -128,7 +128,7 @@ ENDDEF
 #
 # Adafruit_MAX31865-eagle-import_FRAME_A4_ADAFRUIT
 #
-DEF Adafruit_MAX31865-eagle-import_FRAME_A4_ADAFRUIT ~ 0 40 Y Y 1 L N
+DEF ~Adafruit_MAX31865-eagle-import_FRAME_A4_ADAFRUIT ~ 0 40 Y Y 1 L N
 F0 "" 0 0 50 H I C CNN
 F1 "Adafruit_MAX31865-eagle-import_FRAME_A4_ADAFRUIT" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -3071,7 +3071,7 @@ ENDDEF
 #
 # Adafruit_MAX31865-eagle-import_MOUNTINGHOLE3.0
 #
-DEF Adafruit_MAX31865-eagle-import_MOUNTINGHOLE3.0 ~ 0 40 Y Y 1 L N
+DEF ~Adafruit_MAX31865-eagle-import_MOUNTINGHOLE3.0 ~ 0 40 Y Y 1 L N
 F0 "" 0 0 50 H I C CNN
 F1 "Adafruit_MAX31865-eagle-import_MOUNTINGHOLE3.0" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
