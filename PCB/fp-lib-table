@@ -116,4 +116,5 @@
   (lib (name Valve)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints/Valve.pretty)(options "")(descr ""))
   (lib (name Varistor)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints/Varistor.pretty)(options "")(descr ""))
   (lib (name uti-footprints)(type KiCad)(uri ${KIPRJMOD}/uti-footprints)(options "")(descr ""))
+  (lib (name logos)(type KiCad)(uri ${KIPRJMOD}/logos)(options "")(descr ""))
 )

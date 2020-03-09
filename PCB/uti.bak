@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:ArgonCubeSlowControl-cache
+EELAYER 26 0
 EELAYER END
 $Descr User 12143 8268
 encoding utf-8
@@ -13,17 +14,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 10550 3150
 Wire Wire Line
 	11250 4150 11250 4950
 Wire Wire Line
-	11250 2700 11250 3850
+	11250 3050 11250 3850
 $Comp
-L Device:C REF_C44
+L Device:C C44
 U 1 1 5E59CD10
 P 11250 4000
-AR Path="/5E569848/5E59CD10" Ref="REF_C44"  Part="1" 
+AR Path="/5E569848/5E59CD10" Ref="C44"  Part="1" 
 AR Path="/5E5F905B/5E59CD10" Ref="C?"  Part="1" 
-F 0 "REF_C44" V 11502 4000 50  0000 C CNN
+F 0 "C44" V 11502 4000 50  0000 C CNN
 F 1 "3nF" V 11411 4000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 11288 3850 50  0001 C CNN
 F 3 "~" H 11250 4000 50  0001 C CNN
@@ -47,7 +49,9 @@ GND
 Wire Wire Line
 	11250 4950 9850 4950
 Wire Wire Line
-	10450 3150 10450 2700
+	10450 3050 11250 3050
+Wire Wire Line
+	10450 3150 10450 3050
 Wire Wire Line
 	9850 4150 9850 4950
 $Comp
@@ -888,15 +892,4 @@ Wire Wire Line
 	2750 6150 3750 6150
 Wire Wire Line
 	1650 6150 2250 6150
-Text GLabel 10550 3050 1    50   Input ~ 0
-UTI_D
-Wire Wire Line
-	10550 3050 10550 3150
-Wire Wire Line
-	10450 2700 11250 2700
-Text GLabel 9750 4150 0    50   Input ~ 0
-UTI_A
-Wire Wire Line
-	9750 4150 9850 4150
-Connection ~ 9850 4150
 $EndSCHEMATC
