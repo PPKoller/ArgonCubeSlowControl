@@ -14,18 +14,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 10550 3150
 Wire Wire Line
 	11250 4150 11250 4950
 Wire Wire Line
-	11250 3050 11250 3850
+	11250 2700 11250 3850
 $Comp
-L Device:C C44
+L Device:C REF_C44
 U 1 1 5E59CD10
 P 11250 4000
-AR Path="/5E569848/5E59CD10" Ref="C44"  Part="1" 
+AR Path="/5E569848/5E59CD10" Ref="REF_C44"  Part="1" 
 AR Path="/5E5F905B/5E59CD10" Ref="C?"  Part="1" 
-F 0 "C44" V 11502 4000 50  0000 C CNN
+F 0 "REF_C44" V 11502 4000 50  0000 C CNN
 F 1 "3nF" V 11411 4000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 11288 3850 50  0001 C CNN
 F 3 "~" H 11250 4000 50  0001 C CNN
@@ -49,9 +48,7 @@ GND
 Wire Wire Line
 	11250 4950 9850 4950
 Wire Wire Line
-	10450 3050 11250 3050
-Wire Wire Line
-	10450 3150 10450 3050
+	10450 3150 10450 2700
 Wire Wire Line
 	9850 4150 9850 4950
 $Comp
@@ -782,20 +779,6 @@ $EndComp
 NoConn ~ 2150 6950
 NoConn ~ 2150 6650
 $Comp
-L 440247-2:miniUSB P1
-U 1 1 5E583A7B
-P 1950 6850
-AR Path="/5E569848/5E583A7B" Ref="P1"  Part="1" 
-AR Path="/5E5F905B/5E583A7B" Ref="P?"  Part="1" 
-F 0 "P1" H 2280 6896 50  0000 L CNN
-F 1 "miniUSB" H 2280 6805 50  0000 L CNN
-F 2 "TE_440247-2" H 1950 6850 50  0001 L BNN
-F 3 "https://www.te.com/usa-en/product-440247-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 1950 6850 50  0001 L BNN
-F 4 "440247-2" H 1950 6850 50  0001 L BNN "Field4"
-	1    1950 6850
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Interface_USB:FT230XS U17
 U 1 1 5E57B531
 P 3850 6850
@@ -892,4 +875,26 @@ Wire Wire Line
 	2750 6150 3750 6150
 Wire Wire Line
 	1650 6150 2250 6150
+Text GLabel 10550 3050 1    50   Input ~ 0
+UTI_D
+Wire Wire Line
+	10550 3050 10550 3150
+Wire Wire Line
+	10450 2700 11250 2700
+Text GLabel 9750 4150 0    50   Input ~ 0
+UTI_A
+Wire Wire Line
+	9750 4150 9850 4150
+Connection ~ 9850 4150
+$Comp
+L 500075-1517:500075-1517 P1
+U 1 1 5EA87282
+P 1850 6850
+F 0 "P1" H 2029 6871 50  0000 L CNN
+F 1 "500075-1517" H 2029 6780 50  0000 L CNN
+F 2 "MOLEX_500075-1517" H 1850 6850 50  0001 L BNN
+F 3 "" H 1850 6850 50  0001 C CNN
+	1    1850 6850
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

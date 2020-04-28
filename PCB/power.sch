@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:ArgonCubeSlowControl-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -146,50 +147,6 @@ $EndComp
 NoConn ~ 5800 3800
 Text GLabel 4700 3400 1    50   Input ~ 0
 EXT_5V
-$Comp
-L Adafruit_MAX31865-eagle-import:MOUNTINGHOLE3.0 U3
-U 1 1 5BC9BA08
-P 3900 2700
-F 0 "U3" H 3950 2750 50  0001 C CNN
-F 1 "MOUNTINGHOLE3.0" H 3900 2700 50  0001 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3900 2700 50  0001 C CNN
-F 3 "" H 3900 2700 50  0001 C CNN
-	1    3900 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Adafruit_MAX31865-eagle-import:MOUNTINGHOLE3.0 U1
-U 1 1 5BC9C414
-P 3500 2700
-F 0 "U1" H 3550 2750 50  0001 C CNN
-F 1 "MOUNTINGHOLE3.0" H 3500 2700 50  0001 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3500 2700 50  0001 C CNN
-F 3 "" H 3500 2700 50  0001 C CNN
-	1    3500 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Adafruit_MAX31865-eagle-import:MOUNTINGHOLE3.0 U4
-U 1 1 5BC9C8EA
-P 3900 3100
-F 0 "U4" H 3950 3150 50  0001 C CNN
-F 1 "MOUNTINGHOLE3.0" H 3900 3100 50  0001 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3900 3100 50  0001 C CNN
-F 3 "" H 3900 3100 50  0001 C CNN
-	1    3900 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Adafruit_MAX31865-eagle-import:MOUNTINGHOLE3.0 U2
-U 1 1 5BC9CDC5
-P 3500 3100
-F 0 "U2" H 3550 3150 50  0001 C CNN
-F 1 "MOUNTINGHOLE3.0" H 3500 3100 50  0001 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3500 3100 50  0001 C CNN
-F 3 "" H 3500 3100 50  0001 C CNN
-	1    3500 3100
-	1    0    0    -1  
-$EndComp
 Text GLabel 10700 3800 2    50   Input ~ 0
 O6
 Wire Wire Line
@@ -611,4 +568,144 @@ Wire Wire Line
 	8300 4700 7800 4700
 Text GLabel 8300 4700 2    50   Input ~ 0
 UTI_A
+$Comp
+L Mechanical:MountingHole_Pad U1
+U 1 1 5EAE03A1
+P 3050 3300
+F 0 "U1" H 3150 3351 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3150 3260 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 3050 3300 50  0001 C CNN
+F 3 "~" H 3050 3300 50  0001 C CNN
+	1    3050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U0108
+U 1 1 5EAE048A
+P 3050 3500
+F 0 "#U0108" H 3100 3550 50  0001 C CNN
+F 1 "GND" H 3128 3536 42  0000 L CNN
+F 2 "" H 3050 3500 50  0001 C CNN
+F 3 "" H 3050 3500 50  0001 C CNN
+	1    3050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad U2
+U 1 1 5EAF74BE
+P 3500 3300
+F 0 "U2" H 3600 3351 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3600 3260 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 3500 3300 50  0001 C CNN
+F 3 "~" H 3500 3300 50  0001 C CNN
+	1    3500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U0110
+U 1 1 5EAF74C5
+P 3500 3500
+F 0 "#U0110" H 3550 3550 50  0001 C CNN
+F 1 "GND" H 3578 3536 42  0000 L CNN
+F 2 "" H 3500 3500 50  0001 C CNN
+F 3 "" H 3500 3500 50  0001 C CNN
+	1    3500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad U3
+U 1 1 5EAFA245
+P 3050 2900
+F 0 "U3" H 3150 2951 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3150 2860 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 3050 2900 50  0001 C CNN
+F 3 "~" H 3050 2900 50  0001 C CNN
+	1    3050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U0111
+U 1 1 5EAFA24C
+P 3050 3100
+F 0 "#U0111" H 3100 3150 50  0001 C CNN
+F 1 "GND" H 3128 3136 42  0000 L CNN
+F 2 "" H 3050 3100 50  0001 C CNN
+F 3 "" H 3050 3100 50  0001 C CNN
+	1    3050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad U4
+U 1 1 5EAFA252
+P 3500 2900
+F 0 "U4" H 3600 2951 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3600 2860 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 3500 2900 50  0001 C CNN
+F 3 "~" H 3500 2900 50  0001 C CNN
+	1    3500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U0112
+U 1 1 5EAFA259
+P 3500 3100
+F 0 "#U0112" H 3550 3150 50  0001 C CNN
+F 1 "GND" H 3578 3136 42  0000 L CNN
+F 2 "" H 3500 3100 50  0001 C CNN
+F 3 "" H 3500 3100 50  0001 C CNN
+	1    3500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0116
+U 1 1 5EAFEFBC
+P 6700 3600
+F 0 "#0116" H 6750 3650 50  0001 C CNN
+F 1 "GND" V 6700 3532 42  0000 R CNN
+F 2 "" H 6700 3600 50  0001 C CNN
+F 3 "" H 6700 3600 50  0001 C CNN
+	1    6700 3600
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7300 3600 6800 3600
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0117
+U 1 1 5EAFEFC3
+P 6700 3700
+F 0 "#0117" H 6750 3750 50  0001 C CNN
+F 1 "GND" V 6700 3632 42  0000 R CNN
+F 2 "" H 6700 3700 50  0001 C CNN
+F 3 "" H 6700 3700 50  0001 C CNN
+	1    6700 3700
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7300 3700 6800 3700
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0118
+U 1 1 5EB02013
+P 8400 3700
+F 0 "#0118" H 8450 3750 50  0001 C CNN
+F 1 "GND" V 8400 3632 42  0000 R CNN
+F 2 "" H 8400 3700 50  0001 C CNN
+F 3 "" H 8400 3700 50  0001 C CNN
+	1    8400 3700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7800 3700 8300 3700
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #0119
+U 1 1 5EB0201A
+P 8400 3600
+F 0 "#0119" H 8450 3650 50  0001 C CNN
+F 1 "GND" V 8400 3532 42  0000 R CNN
+F 2 "" H 8400 3600 50  0001 C CNN
+F 3 "" H 8400 3600 50  0001 C CNN
+	1    8400 3600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7800 3600 8300 3600
 $EndSCHEMATC

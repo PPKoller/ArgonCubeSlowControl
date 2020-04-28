@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:ArgonCubeSlowControl-cache
+EELAYER 26 0
 EELAYER END
 $Descr User 12143 8268
 encoding utf-8
@@ -778,20 +779,6 @@ $EndComp
 NoConn ~ 2150 6950
 NoConn ~ 2150 6650
 $Comp
-L 440247-2:miniUSB P1
-U 1 1 5E583A7B
-P 1950 6850
-AR Path="/5E569848/5E583A7B" Ref="P1"  Part="1" 
-AR Path="/5E5F905B/5E583A7B" Ref="P?"  Part="1" 
-F 0 "P1" H 2280 6896 50  0000 L CNN
-F 1 "miniUSB" H 2280 6805 50  0000 L CNN
-F 2 "TE_440247-2" H 1950 6850 50  0001 L BNN
-F 3 "https://www.te.com/usa-en/product-440247-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 1950 6850 50  0001 L BNN
-F 4 "440247-2" H 1950 6850 50  0001 L BNN "Field4"
-	1    1950 6850
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Interface_USB:FT230XS U17
 U 1 1 5E57B531
 P 3850 6850
@@ -899,4 +886,15 @@ UTI_A
 Wire Wire Line
 	9750 4150 9850 4150
 Connection ~ 9850 4150
+$Comp
+L 500075-1517:500075-1517 P1
+U 1 1 5EA87282
+P 1850 6850
+F 0 "P1" H 2029 6871 50  0000 L CNN
+F 1 "500075-1517" H 2029 6780 50  0000 L CNN
+F 2 "MOLEX_500075-1517" H 1850 6850 50  0001 L BNN
+F 3 "" H 1850 6850 50  0001 C CNN
+	1    1850 6850
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
