@@ -190,4 +190,5 @@
   (lib (name DMN1150UFB-7B)(type Legacy)(uri ${KIPRJMOD}/uti-symbols/DMN1150UFB-7B.lib)(options "")(descr ""))
   (lib (name FDN360P)(type Legacy)(uri ${KIPRJMOD}/uti-symbols/FDN360P.lib)(options "")(descr ""))
   (lib (name 500075-1517)(type Legacy)(uri ${KIPRJMOD}/uti-symbols/500075-1517.lib)(options "")(descr ""))
+  (lib (name 4527)(type Legacy)(uri ${KIPRJMOD}/uti-symbols/4527.lib)(options "")(descr ""))
 )

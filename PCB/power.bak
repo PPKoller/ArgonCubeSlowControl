@@ -181,7 +181,7 @@ F 3 "~" H 2450 4050 50  0001 C CNN
 	1    2450 4050
 	1    0    0    -1  
 $EndComp
-Text GLabel 2000 4050 0    50   Input ~ 0
+Text GLabel 1200 4050 0    50   Input ~ 0
 EXT_5V
 Text GLabel 2000 4150 0    50   Input ~ 0
 EXT_GND
@@ -708,4 +708,17 @@ F 3 "" H 8400 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7800 3600 8300 3600
+$Comp
+L 4527:4527 F1
+U 1 1 5EAB4752
+P 1600 4050
+F 0 "F1" H 1600 4237 50  0000 C CNN
+F 1 "4527" H 1600 4146 50  0000 C CNN
+F 2 "FUSE_4527" H 1600 4050 50  0001 L BNN
+F 3 "Manufacturer Recommendations" H 1600 4050 50  0001 L BNN
+F 4 "B" H 1600 4050 50  0001 L BNN "Field4"
+F 5 "KEYSTONE" H 1600 4050 50  0001 L BNN "Field5"
+	1    1600 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
