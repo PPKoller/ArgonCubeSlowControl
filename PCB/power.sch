@@ -370,10 +370,6 @@ F 3 "~" H 2250 4850 50  0001 C CNN
 	1    2250 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 7400 2500 7400
-Text GLabel 3100 7400 2    50   Input ~ 0
-EXT_GND
 $Comp
 L Graphic:SYM_Radioactive_Large LOGO1
 U 1 1 5E668053
@@ -708,4 +704,5 @@ F 3 "" H 8400 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7800 3600 8300 3600
+NoConn ~ 2500 7400
 $EndSCHEMATC
