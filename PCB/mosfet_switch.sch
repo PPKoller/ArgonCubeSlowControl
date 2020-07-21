@@ -17,7 +17,7 @@ $EndDescr
 Text GLabel 7000 2900 2    50   Input ~ 0
 MOSFET_5V
 Text GLabel 5000 2900 0    50   Input ~ 0
-EXT_5V
+5V_EXT
 $Comp
 L DMN1150UFB-7B:DMN1150UFB-7B Q1
 U 1 1 5E61F96A

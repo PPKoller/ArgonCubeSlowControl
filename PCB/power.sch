@@ -146,7 +146,7 @@ F 3 "" H 1100 7300 50  0001 C CNN
 $EndComp
 NoConn ~ 5800 3800
 Text GLabel 4700 3400 1    50   Input ~ 0
-EXT_5V
+5V_EXT
 Text GLabel 10700 3800 2    50   Input ~ 0
 O6
 Wire Wire Line
@@ -170,41 +170,6 @@ F 3 "" H 6000 3300 50  0001 C CNN
 	1    6000 3300
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5E7871B9
-P 2450 4050
-F 0 "J1" H 2530 4042 50  0000 L CNN
-F 1 "Conn_01x02" H 2530 3951 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2450 4050 50  0001 C CNN
-F 3 "~" H 2450 4050 50  0001 C CNN
-	1    2450 4050
-	1    0    0    -1  
-$EndComp
-Text GLabel 2000 4050 0    50   Input ~ 0
-EXT_5V
-Text GLabel 2000 4150 0    50   Input ~ 0
-EXT_GND
-Wire Wire Line
-	2000 4050 2250 4050
-Wire Wire Line
-	2000 4150 2150 4150
-Wire Wire Line
-	2150 4150 2150 4300
-Connection ~ 2150 4150
-Wire Wire Line
-	2150 4150 2250 4150
-$Comp
-L Adafruit_MAX31865-eagle-import:GND #0112
-U 1 1 5E7A0973
-P 2150 4400
-F 0 "#0112" H 2200 4450 50  0001 C CNN
-F 1 "GND" H 2228 4438 42  0000 L CNN
-F 2 "" H 2150 4400 50  0001 C CNN
-F 3 "" H 2150 4400 50  0001 C CNN
-	1    2150 4400
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2500 6600
 NoConn ~ 2500 6100
 NoConn ~ 2000 7200
@@ -218,17 +183,6 @@ NoConn ~ 2000 5900
 NoConn ~ 2000 5700
 NoConn ~ 2000 5600
 NoConn ~ 2000 7300
-$Comp
-L Adafruit_MAX31865-eagle-import:GND #0113
-U 1 1 5E7A5A73
-P 3200 5500
-F 0 "#0113" H 3250 5550 50  0001 C CNN
-F 1 "GND" V 3200 5432 42  0000 R CNN
-F 2 "" H 3200 5500 50  0001 C CNN
-F 3 "" H 3200 5500 50  0001 C CNN
-	1    3200 5500
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	3100 6800 2500 6800
 Wire Wire Line
@@ -239,8 +193,6 @@ Wire Wire Line
 	3100 7200 2500 7200
 Wire Wire Line
 	3100 7300 2500 7300
-Wire Wire Line
-	2500 5500 3100 5500
 Text GLabel 3100 7300 2    50   Input ~ 0
 CS9_5V
 Text GLabel 3100 7200 2    50   Input ~ 0
@@ -350,35 +302,16 @@ O39
 Wire Wire Line
 	1400 7400 2000 7400
 Text GLabel 1400 7400 0    50   Input ~ 0
-EXT_5V
-Text GLabel 1900 4850 0    50   Input ~ 0
-EXT_GND
-Wire Wire Line
-	1900 4850 2050 4850
-Text GLabel 1900 4950 0    50   Input ~ 0
-EXT_5V
-Wire Wire Line
-	1900 4950 2050 4950
-$Comp
-L Connector_Generic:Conn_01x02 J3
-U 1 1 5E686FC5
-P 2250 4850
-F 0 "J3" H 2330 4842 50  0000 L CNN
-F 1 "Conn_01x02" H 2330 4751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2250 4850 50  0001 C CNN
-F 3 "~" H 2250 4850 50  0001 C CNN
-	1    2250 4850
-	1    0    0    -1  
-$EndComp
+5V_EXT_RPi
 $Comp
 L Graphic:SYM_Radioactive_Large LOGO1
 U 1 1 5E668053
-P 1950 2850
-F 0 "LOGO1" H 2045 3130 50  0001 C CNN
-F 1 "Bear_logo" H 2045 2680 50  0001 C CNN
-F 2 "logos:Bear" H 2045 2730 50  0001 C CNN
-F 3 "~" H 2075 2730 50  0001 C CNN
-	1    1950 2850
+P 1900 2250
+F 0 "LOGO1" H 1995 2530 50  0001 C CNN
+F 1 "Bear_logo" H 1995 2080 50  0001 C CNN
+F 2 "logos:Bear" H 1995 2130 50  0001 C CNN
+F 3 "~" H 2025 2130 50  0001 C CNN
+	1    1900 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -518,18 +451,14 @@ Wire Wire Line
 $Comp
 L Graphic:SYM_Radioactive_Large LOGO2
 U 1 1 5E68BDFD
-P 1950 3350
-F 0 "LOGO2" H 2045 3630 50  0001 C CNN
-F 1 "Bear_logo" H 2045 3180 50  0001 C CNN
-F 2 "logos:AEC" H 2045 3230 50  0001 C CNN
-F 3 "~" H 2075 3230 50  0001 C CNN
-	1    1950 3350
+P 1900 2750
+F 0 "LOGO2" H 1995 3030 50  0001 C CNN
+F 1 "Bear_logo" H 1995 2580 50  0001 C CNN
+F 2 "logos:AEC" H 1995 2630 50  0001 C CNN
+F 3 "~" H 2025 2630 50  0001 C CNN
+	1    1900 2750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7300 3600
-NoConn ~ 7300 3700
-NoConn ~ 7800 3600
-NoConn ~ 7800 3700
 $Comp
 L Adafruit_MAX31865-eagle-import:GND #0114
 U 1 1 5E68826F
@@ -705,4 +634,159 @@ $EndComp
 Wire Wire Line
 	7800 3600 8300 3600
 NoConn ~ 2500 7400
+$Comp
+L 282834-4:282834-4 J1
+U 1 1 5F172D44
+P 3300 4400
+F 0 "J1" H 3406 4865 50  0000 C CNN
+F 1 "282834-4" H 3406 4774 50  0000 C CNN
+F 2 "HDRV4W85P254_4X1_1062X650X1000" H 3300 4400 50  0001 L BNN
+F 3 "282834-4" H 3300 4400 50  0001 L BNN
+F 4 "Compliant with Exemptions" H 3300 4400 50  0001 L BNN "Field4"
+F 5 "2.54 mm[.1 in]" H 3300 4400 50  0001 L BNN "Field5"
+F 6 "4" H 3300 4400 50  0001 L BNN "Field6"
+	1    3300 4400
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 4200 2    50   Input ~ 0
+5V_EXT
+Text GLabel 3800 4300 2    50   Input ~ 0
+GND_EXT
+Text GLabel 3800 4400 2    50   Input ~ 0
+5V_EXT_RPi
+Text GLabel 3800 4500 2    50   Input ~ 0
+GND_EXT_RPi
+Wire Wire Line
+	2500 5500 3100 5500
+Text GLabel 3100 5500 2    50   Input ~ 0
+GND_EXT_RPi
+Wire Wire Line
+	3600 4200 3800 4200
+Wire Wire Line
+	3600 4300 3700 4300
+Wire Wire Line
+	3600 4400 3800 4400
+Wire Wire Line
+	3600 4500 3800 4500
+Wire Wire Line
+	3600 4500 3600 4600
+Connection ~ 3600 4500
+Wire Wire Line
+	3700 4300 3700 4600
+Connection ~ 3700 4300
+Wire Wire Line
+	3700 4300 3800 4300
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U$0101
+U 1 1 5F1ACBC2
+P 3600 4700
+F 0 "#U$0101" H 3600 4700 50  0001 C CNN
+F 1 "GND" H 3540 4600 42  0000 L BNN
+F 2 "" H 3600 4700 50  0001 C CNN
+F 3 "" H 3600 4700 50  0001 C CNN
+	1    3600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U$0102
+U 1 1 5F1AFFEF
+P 3700 4700
+F 0 "#U$0102" H 3700 4700 50  0001 C CNN
+F 1 "GND" H 3640 4600 42  0000 L BNN
+F 2 "" H 3700 4700 50  0001 C CNN
+F 3 "" H 3700 4700 50  0001 C CNN
+	1    3700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:5KPxxCA D31
+U 1 1 5F1C78D7
+P 2200 3750
+F 0 "D31" H 2200 3966 50  0000 C CNN
+F 1 "ESDM1131" H 2200 3875 50  0000 C CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 2200 3550 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/ESDM1131-D.PDF" H 2200 3750 50  0001 C CNN
+	1    2200 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:5KPxxCA D32
+U 1 1 5F1CC082
+P 2200 4600
+F 0 "D32" H 2200 4816 50  0000 C CNN
+F 1 "ESDM1131" H 2200 4725 50  0000 C CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 2200 4400 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/ESDM1131-D.PDF" H 2200 4600 50  0001 C CNN
+	1    2200 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U$0103
+U 1 1 5F1CF68C
+P 2200 4850
+F 0 "#U$0103" H 2200 4850 50  0001 C CNN
+F 1 "GND" H 2140 4750 42  0000 L BNN
+F 2 "" H 2200 4850 50  0001 C CNN
+F 3 "" H 2200 4850 50  0001 C CNN
+	1    2200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U$0104
+U 1 1 5F1CF692
+P 2200 4000
+F 0 "#U$0104" H 2200 4000 50  0001 C CNN
+F 1 "GND" H 2140 3900 42  0000 L BNN
+F 2 "" H 2200 4000 50  0001 C CNN
+F 3 "" H 2200 4000 50  0001 C CNN
+	1    2200 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1550 4250 0    50   Input ~ 0
+5V_EXT_RPi
+Text GLabel 1550 3400 0    50   Input ~ 0
+5V_EXT
+Wire Wire Line
+	2200 3400 2200 3600
+Wire Wire Line
+	2200 4250 2200 4450
+Wire Wire Line
+	1750 3400 1550 3400
+Wire Wire Line
+	1750 4250 1550 4250
+Text GLabel 2400 4250 2    50   Input ~ 0
+5V_EXT_RPi
+Text GLabel 2400 3400 2    50   Input ~ 0
+5V_EXT
+Wire Wire Line
+	2200 3400 2400 3400
+Wire Wire Line
+	2200 4250 2400 4250
+$Comp
+L Device:Fuse F1
+U 1 1 5F261767
+P 1900 3400
+F 0 "F1" V 2097 3400 50  0000 C CNN
+F 1 "100 mA" V 2006 3400 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric" V 1830 3400 50  0001 C CNN
+F 3 "http://datasheets.avx.com/AccuGuardLC_0603.pdf" H 1900 3400 50  0001 C CNN
+	1    1900 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 3400 2200 3400
+Connection ~ 2200 3400
+$Comp
+L Device:Fuse F2
+U 1 1 5F26CF27
+P 1900 4250
+F 0 "F2" V 2097 4250 50  0000 C CNN
+F 1 "2 A" V 2006 4250 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric" V 1830 4250 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_sfp_datasheet.pdf.pdf" H 1900 4250 50  0001 C CNN
+	1    1900 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 4250 2200 4250
 $EndSCHEMATC
