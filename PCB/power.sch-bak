@@ -314,10 +314,10 @@ F 3 "~" H 6275 5430 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x12_Odd_Even J5
+L Connector_Generic:Conn_02x12_Odd_Even J4
 U 1 1 5E66B1A3
 P 7500 4100
-F 0 "J5" H 7550 4817 50  0000 C CNN
+F 0 "J4" H 7550 4817 50  0000 C CNN
 F 1 "Conn_02x12_Odd_Even" H 7550 4726 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 7500 4100 50  0001 C CNN
 F 3 "~" H 7500 4100 50  0001 C CNN
@@ -325,10 +325,10 @@ F 3 "~" H 7500 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x12_Odd_Even J6
+L Connector_Generic:Conn_02x12_Odd_Even J5
 U 1 1 5E66B3B2
 P 9900 4100
-F 0 "J6" H 9950 4817 50  0000 C CNN
+F 0 "J5" H 9950 4817 50  0000 C CNN
 F 1 "Conn_02x12_Odd_Even" H 9950 4726 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 9900 4100 50  0001 C CNN
 F 3 "~" H 9900 4100 50  0001 C CNN
@@ -458,32 +458,6 @@ F 3 "~" H 6275 5930 50  0001 C CNN
 	1    6150 6050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Adafruit_MAX31865-eagle-import:GND #0114
-U 1 1 5E68826F
-P 6700 4600
-F 0 "#0114" H 6750 4650 50  0001 C CNN
-F 1 "GND" V 6700 4532 42  0000 R CNN
-F 2 "" H 6700 4600 50  0001 C CNN
-F 3 "" H 6700 4600 50  0001 C CNN
-	1    6700 4600
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	7300 4600 6800 4600
-$Comp
-L Adafruit_MAX31865-eagle-import:GND #0115
-U 1 1 5E68E474
-P 6700 4700
-F 0 "#0115" H 6750 4750 50  0001 C CNN
-F 1 "GND" V 6700 4632 42  0000 R CNN
-F 2 "" H 6700 4700 50  0001 C CNN
-F 3 "" H 6700 4700 50  0001 C CNN
-	1    6700 4700
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	7300 4700 6800 4700
 Text GLabel 8300 4600 2    50   Input ~ 0
 UTI_D
 Wire Wire Line
@@ -580,58 +554,6 @@ F 3 "" H 4950 5750 50  0001 C CNN
 	1    4950 5750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Adafruit_MAX31865-eagle-import:GND #0116
-U 1 1 5EAFEFBC
-P 6700 3600
-F 0 "#0116" H 6750 3650 50  0001 C CNN
-F 1 "GND" V 6700 3532 42  0000 R CNN
-F 2 "" H 6700 3600 50  0001 C CNN
-F 3 "" H 6700 3600 50  0001 C CNN
-	1    6700 3600
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	7300 3600 6800 3600
-$Comp
-L Adafruit_MAX31865-eagle-import:GND #0117
-U 1 1 5EAFEFC3
-P 6700 3700
-F 0 "#0117" H 6750 3750 50  0001 C CNN
-F 1 "GND" V 6700 3632 42  0000 R CNN
-F 2 "" H 6700 3700 50  0001 C CNN
-F 3 "" H 6700 3700 50  0001 C CNN
-	1    6700 3700
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	7300 3700 6800 3700
-$Comp
-L Adafruit_MAX31865-eagle-import:GND #0118
-U 1 1 5EB02013
-P 8400 3700
-F 0 "#0118" H 8450 3750 50  0001 C CNN
-F 1 "GND" V 8400 3632 42  0000 R CNN
-F 2 "" H 8400 3700 50  0001 C CNN
-F 3 "" H 8400 3700 50  0001 C CNN
-	1    8400 3700
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	7800 3700 8300 3700
-$Comp
-L Adafruit_MAX31865-eagle-import:GND #0119
-U 1 1 5EB0201A
-P 8400 3600
-F 0 "#0119" H 8450 3650 50  0001 C CNN
-F 1 "GND" V 8400 3532 42  0000 R CNN
-F 2 "" H 8400 3600 50  0001 C CNN
-F 3 "" H 8400 3600 50  0001 C CNN
-	1    8400 3600
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	7800 3600 8300 3600
 NoConn ~ 2500 7400
 $Comp
 L 282834-4:282834-4 J1
@@ -655,10 +577,6 @@ Text GLabel 1600 1800 2    50   Input ~ 0
 5V_EXT_RPi
 Text GLabel 1600 1900 2    50   Input ~ 0
 GND_EXT
-Wire Wire Line
-	2500 5500 3100 5500
-Text GLabel 3100 5500 2    50   Input ~ 0
-GND_EXT_RPi
 Wire Wire Line
 	1400 1600 1600 1600
 Wire Wire Line
@@ -785,13 +703,13 @@ Text GLabel 2550 2500 2    50   Input ~ 0
 Wire Wire Line
 	2350 2500 2550 2500
 Text GLabel 2550 2900 2    50   Input ~ 0
-5V_EXT_FUSED
+5V_EXT_RPi_FUSED
 Wire Wire Line
 	2350 2900 2550 2900
 Text GLabel 1600 3350 0    50   Input ~ 0
 5V_EXT_FUSED
 Text GLabel 1600 4250 0    50   Input ~ 0
-5V_EXT_FUSED
+5V_EXT_RPi_FUSED
 Wire Wire Line
 	1600 3350 1950 3350
 Connection ~ 1950 4250
@@ -818,4 +736,21 @@ Wire Wire Line
 Wire Wire Line
 	2050 2900 1850 2900
 Connection ~ 1850 2900
+NoConn ~ 7800 3700
+NoConn ~ 7800 3600
+NoConn ~ 7300 3600
+NoConn ~ 7300 3700
+NoConn ~ 7300 4600
+NoConn ~ 7300 4700
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U$0105
+U 1 1 5F1BDA1C
+P 2600 5500
+F 0 "#U$0105" H 2600 5500 50  0001 C CNN
+F 1 "GND" H 2540 5400 42  0000 L BNN
+F 2 "" H 2600 5500 50  0001 C CNN
+F 3 "" H 2600 5500 50  0001 C CNN
+	1    2600 5500
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

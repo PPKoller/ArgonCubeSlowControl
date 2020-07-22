@@ -314,10 +314,10 @@ F 3 "~" H 6275 5430 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x12_Odd_Even J5
+L Connector_Generic:Conn_02x12_Odd_Even J4
 U 1 1 5E66B1A3
 P 7500 4100
-F 0 "J5" H 7550 4817 50  0000 C CNN
+F 0 "J4" H 7550 4817 50  0000 C CNN
 F 1 "Conn_02x12_Odd_Even" H 7550 4726 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 7500 4100 50  0001 C CNN
 F 3 "~" H 7500 4100 50  0001 C CNN
@@ -325,10 +325,10 @@ F 3 "~" H 7500 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x12_Odd_Even J6
+L Connector_Generic:Conn_02x12_Odd_Even J5
 U 1 1 5E66B3B2
 P 9900 4100
-F 0 "J6" H 9950 4817 50  0000 C CNN
+F 0 "J5" H 9950 4817 50  0000 C CNN
 F 1 "Conn_02x12_Odd_Even" H 9950 4726 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 9900 4100 50  0001 C CNN
 F 3 "~" H 9900 4100 50  0001 C CNN
@@ -703,13 +703,13 @@ Text GLabel 2550 2500 2    50   Input ~ 0
 Wire Wire Line
 	2350 2500 2550 2500
 Text GLabel 2550 2900 2    50   Input ~ 0
-5V_EXT_FUSED
+5V_EXT_RPi_FUSED
 Wire Wire Line
 	2350 2900 2550 2900
 Text GLabel 1600 3350 0    50   Input ~ 0
 5V_EXT_FUSED
 Text GLabel 1600 4250 0    50   Input ~ 0
-5V_EXT_FUSED
+5V_EXT_RPi_FUSED
 Wire Wire Line
 	1600 3350 1950 3350
 Connection ~ 1950 4250

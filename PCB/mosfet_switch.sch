@@ -44,8 +44,6 @@ F 3 "~" H 5400 4250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6000 4500 6000 4400
-Wire Wire Line
 	5400 4000 5400 4100
 Wire Wire Line
 	5400 4400 5400 4500
@@ -53,7 +51,6 @@ Wire Wire Line
 	5400 4500 6000 4500
 Wire Wire Line
 	6000 4500 6000 4600
-Connection ~ 6000 4500
 $Comp
 L Adafruit_MAX31865-eagle-import:GND #0111
 U 1 1 5E62A8A8
@@ -108,4 +105,7 @@ Wire Wire Line
 Connection ~ 5400 2900
 Wire Wire Line
 	6300 2900 7000 2900
+Wire Wire Line
+	6000 4400 6000 4500
+Connection ~ 6000 4500
 $EndSCHEMATC
