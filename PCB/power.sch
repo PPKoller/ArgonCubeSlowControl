@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:ArgonCubeSlowControl-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -736,12 +737,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 2900 1850 2900
 Connection ~ 1850 2900
-NoConn ~ 7800 3700
-NoConn ~ 7800 3600
-NoConn ~ 7300 3600
-NoConn ~ 7300 3700
-NoConn ~ 7300 4600
-NoConn ~ 7300 4700
 $Comp
 L Adafruit_MAX31865-eagle-import:GND #U$0105
 U 1 1 5F1BDA1C
@@ -752,5 +747,71 @@ F 2 "" H 2600 5500 50  0001 C CNN
 F 3 "" H 2600 5500 50  0001 C CNN
 	1    2600 5500
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U$?
+U 1 1 5F1A07FC
+P 7900 3600
+F 0 "#U$?" H 7900 3600 50  0001 C CNN
+F 1 "GND" H 7840 3500 42  0000 L BNN
+F 2 "" H 7900 3600 50  0001 C CNN
+F 3 "" H 7900 3600 50  0001 C CNN
+	1    7900 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U$?
+U 1 1 5F1ABCC7
+P 7900 3700
+F 0 "#U$?" H 7900 3700 50  0001 C CNN
+F 1 "GND" H 7840 3600 42  0000 L BNN
+F 2 "" H 7900 3700 50  0001 C CNN
+F 3 "" H 7900 3700 50  0001 C CNN
+	1    7900 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U$?
+U 1 1 5F1AF916
+P 7200 3600
+F 0 "#U$?" H 7200 3600 50  0001 C CNN
+F 1 "GND" H 7140 3500 42  0000 L BNN
+F 2 "" H 7200 3600 50  0001 C CNN
+F 3 "" H 7200 3600 50  0001 C CNN
+	1    7200 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U$?
+U 1 1 5F1BE9DA
+P 7200 3700
+F 0 "#U$?" H 7200 3700 50  0001 C CNN
+F 1 "GND" H 7140 3600 42  0000 L BNN
+F 2 "" H 7200 3700 50  0001 C CNN
+F 3 "" H 7200 3700 50  0001 C CNN
+	1    7200 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U$?
+U 1 1 5F1C2609
+P 7200 4600
+F 0 "#U$?" H 7200 4600 50  0001 C CNN
+F 1 "GND" H 7140 4500 42  0000 L BNN
+F 2 "" H 7200 4600 50  0001 C CNN
+F 3 "" H 7200 4600 50  0001 C CNN
+	1    7200 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_MAX31865-eagle-import:GND #U$?
+U 1 1 5F1C6238
+P 7200 4700
+F 0 "#U$?" H 7200 4700 50  0001 C CNN
+F 1 "GND" H 7140 4600 42  0000 L BNN
+F 2 "" H 7200 4700 50  0001 C CNN
+F 3 "" H 7200 4700 50  0001 C CNN
+	1    7200 4700
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

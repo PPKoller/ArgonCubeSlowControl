@@ -988,7 +988,7 @@
     (at 102.2985 87.1855)
     (descr SuperSOT-3)
     (path /5E5F905B/5E62C5F8)
-    (fp_text reference Q2 (at 2.4765 -0.8255 90) (layer F.SilkS)
+    (fp_text reference Q2 (at 1.8415 -1.4605 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value NVTR0202PLT1G (at 0.5334 2.7686) (layer F.Fab)

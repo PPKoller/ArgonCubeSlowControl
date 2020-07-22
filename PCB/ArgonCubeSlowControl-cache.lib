@@ -153,7 +153,7 @@ ENDDEF
 #
 # Adafruit_MAX31865-eagle-import_FRAME_A4_ADAFRUIT
 #
-DEF Adafruit_MAX31865-eagle-import_FRAME_A4_ADAFRUIT ~ 0 40 Y Y 1 L N
+DEF ~Adafruit_MAX31865-eagle-import_FRAME_A4_ADAFRUIT ~ 0 40 Y Y 1 L N
 F0 "" 0 0 50 H I C CNN
 F1 "Adafruit_MAX31865-eagle-import_FRAME_A4_ADAFRUIT" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -3565,7 +3565,7 @@ ENDDEF
 #
 # Graphic_SYM_Radioactive_Large
 #
-DEF Graphic_SYM_Radioactive_Large #SYM 0 40 Y N 1 F N
+DEF ~Graphic_SYM_Radioactive_Large #SYM 0 40 Y N 1 F N
 F0 "#SYM" 95 280 50 H I C CNN
 F1 "Graphic_SYM_Radioactive_Large" 95 -170 50 H I C CNN
 F2 "" 95 -120 50 H I C CNN

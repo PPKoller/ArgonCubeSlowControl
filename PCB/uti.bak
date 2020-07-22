@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ArgonCubeSlowControl-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr User 12143 8268
 encoding utf-8
@@ -141,12 +140,12 @@ F 3 "" H 9150 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x07_Male J4
+L Connector:Conn_01x07_Male J3
 U 1 1 5E5E0B6B
 P 9450 1050
-AR Path="/5E569848/5E5E0B6B" Ref="J4"  Part="1" 
+AR Path="/5E569848/5E5E0B6B" Ref="J3"  Part="1" 
 AR Path="/5E5F905B/5E5E0B6B" Ref="J?"  Part="1" 
-F 0 "J4" H 9422 982 50  0000 R CNN
+F 0 "J3" H 9422 982 50  0000 R CNN
 F 1 "Conn_01x07_Male" H 9422 1073 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 9450 1050 50  0001 C CNN
 F 3 "~" H 9450 1050 50  0001 C CNN
