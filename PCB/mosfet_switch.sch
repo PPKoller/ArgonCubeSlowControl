@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ArgonCubeSlowControl-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr User 12143 8268
 encoding utf-8
@@ -17,7 +16,7 @@ $EndDescr
 Text GLabel 7000 2900 2    50   Input ~ 0
 MOSFET_5V
 Text GLabel 5000 2900 0    50   Input ~ 0
-5V_EXT
+5V
 $Comp
 L DMN1150UFB-7B:DMN1150UFB-7B Q1
 U 1 1 5E61F96A

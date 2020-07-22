@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ArgonCubeSlowControl-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr User 12143 8268
 encoding utf-8
