@@ -763,19 +763,6 @@ Wire Wire Line
 	2150 6850 2350 6850
 Wire Wire Line
 	2150 6750 2450 6750
-$Comp
-L Adafruit_MAX31865-eagle-import:GND #0101
-U 1 1 5E5A3241
-P 2150 7150
-AR Path="/5E569848/5E5A3241" Ref="#0101"  Part="1" 
-AR Path="/5E5F905B/5E5A3241" Ref="#?"  Part="1" 
-F 0 "#0101" H 2200 7200 50  0001 C CNN
-F 1 "GND" H 2228 7188 42  0000 L CNN
-F 2 "" H 2150 7150 50  0001 C CNN
-F 3 "" H 2150 7150 50  0001 C CNN
-	1    2150 7150
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2150 6950
 NoConn ~ 2150 6650
 $Comp
@@ -897,4 +884,5 @@ F 3 "" H 1850 6850 50  0001 C CNN
 	1    1850 6850
 	-1   0    0    -1  
 $EndComp
+NoConn ~ 2150 7050
 $EndSCHEMATC
