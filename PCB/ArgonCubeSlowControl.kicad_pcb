@@ -5781,7 +5781,7 @@
   (gr_text UTI_D (at 230.886 85.09) (layer F.SilkS) (tstamp 5E66F04A)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "XXXXX UniBE - PT100x10 + UTI, Patrick Koller, July 2020" (at 188.595 106.68) (layer F.SilkS)
+  (gr_text "ArgonCube SlowControl v1.0, Patrick Koller, Sept. 2020" (at 188.595 106.68) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 
