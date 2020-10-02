@@ -1,0 +1,3061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/ArgonCubeSlowControl.sch</source>
+    <date>Tue 08 Sep 2020 04:40:38 PM CEST</date>
+    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ArgonCubeSlowControl.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power/" tstamps="/5BC83750/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/MAX31865_00/" tstamps="/5BC99DB9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>max31865_00.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/MAX31865_01/" tstamps="/5BCA190B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>max31865_01.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/MAX31865_02/" tstamps="/5BCA190E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>max31865_02.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/MAX31865_03/" tstamps="/5BCA1911/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>max31865_03.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/MAX31865_04/" tstamps="/5BCA1914/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>max31865_04.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/MAX31865_05/" tstamps="/5BCA1C68/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>max31865_05.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/MAX31865_06/" tstamps="/5BCA1C6A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>max31865_06.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/MAX31865_07/" tstamps="/5BCA1C6C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>max31865_07.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/MAX31865_08/" tstamps="/5BCA1C6E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>max31865_08.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="12" name="/MAX31865_09/" tstamps="/5BCA1C70/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>max31865_09.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="13" name="/UTI/" tstamps="/5E569848/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>uti.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="14" name="/MOSFET_Switch/" tstamps="/5E5F905B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>mosfet_switch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U5">
+      <value>MIC5225-3.3</value>
+      <footprint>Adafruit MAX31865:SOT23-5</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="VREG_SOT23-5" description=""/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>380EFF36</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>D8933479</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>09CD1EDC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x20_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>5BC85B0F</tstamp>
+    </comp>
+    <comp ref="LOGO1">
+      <value>Bear_logo</value>
+      <footprint>logos:Bear</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Graphic" part="SYM_Radioactive_Large" description="Radioactive/radiation warning symbol, large"/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>5E668053</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x12_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x12_Odd_Even" description="Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>5E66B1A3</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x12_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x12_Odd_Even" description="Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>5E66B3B2</tstamp>
+    </comp>
+    <comp ref="LOGO2">
+      <value>Bear_logo</value>
+      <footprint>logos:AEC</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Graphic" part="SYM_Radioactive_Large" description="Radioactive/radiation warning symbol, large"/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>5E68BDFD</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>5EAE03A1</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>5EAF74BE</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>5EAFA245</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>5EAFA252</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>282834-4</value>
+      <footprint>HDRV4W85P254_4X1_1062X650X1000</footprint>
+      <datasheet>282834-4</datasheet>
+      <fields>
+        <field name="Field4">Compliant with Exemptions</field>
+        <field name="Field5">2.54 mm[.1 in]</field>
+        <field name="Field6">4</field>
+      </fields>
+      <libsource lib="282834-4" part="282834-4" description=""/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>5F172D44</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>ESDM1131</value>
+      <footprint>Diode_SMD:D_0402_1005Metric</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/ESDM1131-D.PDF</datasheet>
+      <libsource lib="Diode" part="5KPxxCA" description="5000W bidirectional Transient Voltage Suppressor, P-600"/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>5F1C78D7</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>ESDM1131</value>
+      <footprint>Diode_SMD:D_0402_1005Metric</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/ESDM1131-D.PDF</datasheet>
+      <libsource lib="Diode" part="5KPxxCA" description="5000W bidirectional Transient Voltage Suppressor, P-600"/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>5F1CC082</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_2_Open</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/Power/" tstamps="/5BC83750/"/>
+      <tstamp>5F1F8F28</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MAX31865</value>
+      <footprint>Adafruit MAX31865:QFN20_4MM_0.65MM</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="TEMP_MAX31865" description=""/>
+      <sheetpath names="/MAX31865_00/" tstamps="/5BC99DB9/"/>
+      <tstamp>5BC88093</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_00/" tstamps="/5BC99DB9/"/>
+      <tstamp>5BC880B4</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_00/" tstamps="/5BC99DB9/"/>
+      <tstamp>5BC8813C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>430Ω / 4300Ω 0.1%</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_00/" tstamps="/5BC99DB9/"/>
+      <tstamp>5BC8807C</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_00/" tstamps="/5BC99DB9/"/>
+      <tstamp>5BC893CC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_00/" tstamps="/5BC99DB9/"/>
+      <tstamp>5BC88115</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_00/" tstamps="/5BC99DB9/"/>
+      <tstamp>5BC88136</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_00/" tstamps="/5BC99DB9/"/>
+      <tstamp>5BC893F5</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_00/" tstamps="/5BC99DB9/"/>
+      <tstamp>5BC880EE</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_00/" tstamps="/5BC99DB9/"/>
+      <tstamp>5BC880D4</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_00/" tstamps="/5BC99DB9/"/>
+      <tstamp>5BC8808A</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>FERRITE-0805NO</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="FERRITE-0805NO" description=""/>
+      <sheetpath names="/MAX31865_00/" tstamps="/5BC99DB9/"/>
+      <tstamp>5BC88123</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>MAX31865</value>
+      <footprint>Adafruit MAX31865:QFN20_4MM_0.65MM</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="TEMP_MAX31865" description=""/>
+      <sheetpath names="/MAX31865_01/" tstamps="/5BCA190B/"/>
+      <tstamp>5BC8808F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_01/" tstamps="/5BCA190B/"/>
+      <tstamp>5BC880B3</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_01/" tstamps="/5BCA190B/"/>
+      <tstamp>5BC8813A</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_01/" tstamps="/5BCA190B/"/>
+      <tstamp>5BC88114</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_01/" tstamps="/5BCA190B/"/>
+      <tstamp>5BC88135</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_01/" tstamps="/5BCA190B/"/>
+      <tstamp>5BC880FF</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_01/" tstamps="/5BCA190B/"/>
+      <tstamp>5BC893F2</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_01/" tstamps="/5BCA190B/"/>
+      <tstamp>5BC880D0</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_01/" tstamps="/5BCA190B/"/>
+      <tstamp>5BC88087</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>FERRITE-0805NO</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="FERRITE-0805NO" description=""/>
+      <sheetpath names="/MAX31865_01/" tstamps="/5BCA190B/"/>
+      <tstamp>5BC88122</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>430Ω / 4300Ω 0.1%</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_01/" tstamps="/5BCA190B/"/>
+      <tstamp>5E62E006</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_01/" tstamps="/5BCA190B/"/>
+      <tstamp>5E62E00C</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>MAX31865</value>
+      <footprint>Adafruit MAX31865:QFN20_4MM_0.65MM</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="TEMP_MAX31865" description=""/>
+      <sheetpath names="/MAX31865_02/" tstamps="/5BCA190E/"/>
+      <tstamp>5BC88091</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_02/" tstamps="/5BCA190E/"/>
+      <tstamp>5BC880B5</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_02/" tstamps="/5BCA190E/"/>
+      <tstamp>B94C3227</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_02/" tstamps="/5BCA190E/"/>
+      <tstamp>5BC8811A</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_02/" tstamps="/5BCA190E/"/>
+      <tstamp>5BC88130</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_02/" tstamps="/5BCA190E/"/>
+      <tstamp>5BC880FE</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_02/" tstamps="/5BCA190E/"/>
+      <tstamp>5BC880E9</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_02/" tstamps="/5BCA190E/"/>
+      <tstamp>5BC893CD</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_02/" tstamps="/5BCA190E/"/>
+      <tstamp>3EF73F2A</tstamp>
+    </comp>
+    <comp ref="FB3">
+      <value>FERRITE-0805NO</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="FERRITE-0805NO" description=""/>
+      <sheetpath names="/MAX31865_02/" tstamps="/5BCA190E/"/>
+      <tstamp>71A23422</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>430Ω / 4300Ω 0.1%</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_02/" tstamps="/5BCA190E/"/>
+      <tstamp>5E642978</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_02/" tstamps="/5BCA190E/"/>
+      <tstamp>5E64297E</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>MAX31865</value>
+      <footprint>Adafruit MAX31865:QFN20_4MM_0.65MM</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="TEMP_MAX31865" description=""/>
+      <sheetpath names="/MAX31865_03/" tstamps="/5BCA1911/"/>
+      <tstamp>5BC88095</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_03/" tstamps="/5BCA1911/"/>
+      <tstamp>5BC893CA</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_03/" tstamps="/5BCA1911/"/>
+      <tstamp>5BC8813D</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_03/" tstamps="/5BCA1911/"/>
+      <tstamp>5BC88116</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_03/" tstamps="/5BCA1911/"/>
+      <tstamp>5BC88133</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_03/" tstamps="/5BCA1911/"/>
+      <tstamp>5BC88100</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_03/" tstamps="/5BCA1911/"/>
+      <tstamp>5BC880EB</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_03/" tstamps="/5BCA1911/"/>
+      <tstamp>5BC880CD</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_03/" tstamps="/5BCA1911/"/>
+      <tstamp>5BC8808C</tstamp>
+    </comp>
+    <comp ref="FB4">
+      <value>FERRITE-0805NO</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="FERRITE-0805NO" description=""/>
+      <sheetpath names="/MAX31865_03/" tstamps="/5BCA1911/"/>
+      <tstamp>5BC88121</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>430Ω / 4300Ω 0.1%</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_03/" tstamps="/5BCA1911/"/>
+      <tstamp>5E64DFC4</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_03/" tstamps="/5BCA1911/"/>
+      <tstamp>5E64DFCA</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>MAX31865</value>
+      <footprint>Adafruit MAX31865:QFN20_4MM_0.65MM</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="TEMP_MAX31865" description=""/>
+      <sheetpath names="/MAX31865_04/" tstamps="/5BCA1914/"/>
+      <tstamp>5BC8808D</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_04/" tstamps="/5BCA1914/"/>
+      <tstamp>5BC880B7</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_04/" tstamps="/5BCA1914/"/>
+      <tstamp>5BC88140</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_04/" tstamps="/5BCA1914/"/>
+      <tstamp>5BC88118</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_04/" tstamps="/5BCA1914/"/>
+      <tstamp>5BC8812F</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_04/" tstamps="/5BCA1914/"/>
+      <tstamp>5BC880FB</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_04/" tstamps="/5BCA1914/"/>
+      <tstamp>5BC880E8</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_04/" tstamps="/5BCA1914/"/>
+      <tstamp>5BC880CC</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_04/" tstamps="/5BCA1914/"/>
+      <tstamp>5BC88085</tstamp>
+    </comp>
+    <comp ref="FB5">
+      <value>FERRITE-0805NO</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="FERRITE-0805NO" description=""/>
+      <sheetpath names="/MAX31865_04/" tstamps="/5BCA1914/"/>
+      <tstamp>5BC88125</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>430Ω / 4300Ω 0.1%</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_04/" tstamps="/5BCA1914/"/>
+      <tstamp>5E67B9ED</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_04/" tstamps="/5BCA1914/"/>
+      <tstamp>5E67B9F3</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>MAX31865</value>
+      <footprint>Adafruit MAX31865:QFN20_4MM_0.65MM</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="TEMP_MAX31865" description=""/>
+      <sheetpath names="/MAX31865_05/" tstamps="/5BCA1C68/"/>
+      <tstamp>5BC88094</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_05/" tstamps="/5BCA1C68/"/>
+      <tstamp>5BC880B8</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_05/" tstamps="/5BCA1C68/"/>
+      <tstamp>5BC88139</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_05/" tstamps="/5BCA1C68/"/>
+      <tstamp>5BC8811B</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_05/" tstamps="/5BCA1C68/"/>
+      <tstamp>5BC88134</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_05/" tstamps="/5BCA1C68/"/>
+      <tstamp>5BC880FD</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_05/" tstamps="/5BCA1C68/"/>
+      <tstamp>5BC880ED</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_05/" tstamps="/5BCA1C68/"/>
+      <tstamp>5BC880CF</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_05/" tstamps="/5BCA1C68/"/>
+      <tstamp>5BC88086</tstamp>
+    </comp>
+    <comp ref="FB6">
+      <value>FERRITE-0805NO</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="FERRITE-0805NO" description=""/>
+      <sheetpath names="/MAX31865_05/" tstamps="/5BCA1C68/"/>
+      <tstamp>5BC88124</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>430Ω / 4300Ω 0.1%</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_05/" tstamps="/5BCA1C68/"/>
+      <tstamp>5E681157</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_05/" tstamps="/5BCA1C68/"/>
+      <tstamp>5E68115D</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>MAX31865</value>
+      <footprint>Adafruit MAX31865:QFN20_4MM_0.65MM</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="TEMP_MAX31865" description=""/>
+      <sheetpath names="/MAX31865_06/" tstamps="/5BCA1C6A/"/>
+      <tstamp>5BC88092</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_06/" tstamps="/5BCA1C6A/"/>
+      <tstamp>5BC880B1</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_06/" tstamps="/5BCA1C6A/"/>
+      <tstamp>5BC88138</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_06/" tstamps="/5BCA1C6A/"/>
+      <tstamp>63D5FDD5</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_06/" tstamps="/5BCA1C6A/"/>
+      <tstamp>99333350</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_06/" tstamps="/5BCA1C6A/"/>
+      <tstamp>5BC880FC</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_06/" tstamps="/5BCA1C6A/"/>
+      <tstamp>5BC880E7</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_06/" tstamps="/5BCA1C6A/"/>
+      <tstamp>5BC880D3</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_06/" tstamps="/5BCA1C6A/"/>
+      <tstamp>5BC88089</tstamp>
+    </comp>
+    <comp ref="FB7">
+      <value>FERRITE-0805NO</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="FERRITE-0805NO" description=""/>
+      <sheetpath names="/MAX31865_06/" tstamps="/5BCA1C6A/"/>
+      <tstamp>5BC88120</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>430Ω / 4300Ω 0.1%</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_06/" tstamps="/5BCA1C6A/"/>
+      <tstamp>5E68722D</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_06/" tstamps="/5BCA1C6A/"/>
+      <tstamp>5E687233</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>MAX31865</value>
+      <footprint>Adafruit MAX31865:QFN20_4MM_0.65MM</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="TEMP_MAX31865" description=""/>
+      <sheetpath names="/MAX31865_07/" tstamps="/5BCA1C6C/"/>
+      <tstamp>5BC8808E</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_07/" tstamps="/5BCA1C6C/"/>
+      <tstamp>5BC880B9</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_07/" tstamps="/5BCA1C6C/"/>
+      <tstamp>5BC8813F</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_07/" tstamps="/5BCA1C6C/"/>
+      <tstamp>5BC88119</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_07/" tstamps="/5BCA1C6C/"/>
+      <tstamp>5BC88137</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_07/" tstamps="/5BCA1C6C/"/>
+      <tstamp>5BC88101</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_07/" tstamps="/5BCA1C6C/"/>
+      <tstamp>5BC880EA</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_07/" tstamps="/5BCA1C6C/"/>
+      <tstamp>5BC880D2</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_07/" tstamps="/5BCA1C6C/"/>
+      <tstamp>5BC88084</tstamp>
+    </comp>
+    <comp ref="FB8">
+      <value>FERRITE-0805NO</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="FERRITE-0805NO" description=""/>
+      <sheetpath names="/MAX31865_07/" tstamps="/5BCA1C6C/"/>
+      <tstamp>5BC8811E</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>430Ω / 4300Ω 0.1%</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_07/" tstamps="/5BCA1C6C/"/>
+      <tstamp>5E68C2FE</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_07/" tstamps="/5BCA1C6C/"/>
+      <tstamp>5E68C304</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>MAX31865</value>
+      <footprint>Adafruit MAX31865:QFN20_4MM_0.65MM</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="TEMP_MAX31865" description=""/>
+      <sheetpath names="/MAX31865_08/" tstamps="/5BCA1C6E/"/>
+      <tstamp>5BC88090</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_08/" tstamps="/5BCA1C6E/"/>
+      <tstamp>5BC880B2</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_08/" tstamps="/5BCA1C6E/"/>
+      <tstamp>5BC8813E</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_08/" tstamps="/5BCA1C6E/"/>
+      <tstamp>5BC8811C</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_08/" tstamps="/5BCA1C6E/"/>
+      <tstamp>5BC88132</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_08/" tstamps="/5BCA1C6E/"/>
+      <tstamp>5BC880FA</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_08/" tstamps="/5BCA1C6E/"/>
+      <tstamp>5BC880EC</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_08/" tstamps="/5BCA1C6E/"/>
+      <tstamp>5BC880CE</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_08/" tstamps="/5BCA1C6E/"/>
+      <tstamp>5BC88088</tstamp>
+    </comp>
+    <comp ref="FB9">
+      <value>FERRITE-0805NO</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="FERRITE-0805NO" description=""/>
+      <sheetpath names="/MAX31865_08/" tstamps="/5BCA1C6E/"/>
+      <tstamp>5BC8811D</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>430Ω / 4300Ω 0.1%</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_08/" tstamps="/5BCA1C6E/"/>
+      <tstamp>5E691AEE</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>100nF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_08/" tstamps="/5BCA1C6E/"/>
+      <tstamp>5E691AF4</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>MAX31865</value>
+      <footprint>Adafruit MAX31865:QFN20_4MM_0.65MM</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="TEMP_MAX31865" description=""/>
+      <sheetpath names="/MAX31865_09/" tstamps="/5BCA1C70/"/>
+      <tstamp>42F113BA</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_09/" tstamps="/5BCA1C70/"/>
+      <tstamp>5BC880B6</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_09/" tstamps="/5BCA1C70/"/>
+      <tstamp>5BC8813B</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_09/" tstamps="/5BCA1C70/"/>
+      <tstamp>5BC88117</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_09/" tstamps="/5BCA1C70/"/>
+      <tstamp>5BC88131</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10K</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_09/" tstamps="/5BCA1C70/"/>
+      <tstamp>5BC880F9</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_09/" tstamps="/5BCA1C70/"/>
+      <tstamp>5BC880EF</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_09/" tstamps="/5BCA1C70/"/>
+      <tstamp>5BC880D1</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>1N4148</value>
+      <footprint>Adafruit MAX31865:SOD-323</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323" description=""/>
+      <sheetpath names="/MAX31865_09/" tstamps="/5BCA1C70/"/>
+      <tstamp>5BC8808B</tstamp>
+    </comp>
+    <comp ref="FB10">
+      <value>FERRITE-0805NO</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="FERRITE-0805NO" description=""/>
+      <sheetpath names="/MAX31865_09/" tstamps="/5BCA1C70/"/>
+      <tstamp>5BC8811F</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>430Ω / 4300Ω 0.1%</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_09/" tstamps="/5BCA1C70/"/>
+      <tstamp>5E6977BA</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100nF</value>
+      <footprint>Adafruit MAX31865:0805-NO</footprint>
+      <libsource lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/MAX31865_09/" tstamps="/5BCA1C70/"/>
+      <tstamp>5E6977C0</tstamp>
+    </comp>
+    <comp ref="REF_C44">
+      <value>3nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E59CD10</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E60FAD6</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>20kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E5EE573</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x07_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x07_Male" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E5E0B6B</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>PIC16F1933-I_SO</value>
+      <footprint>SOIC127P1030X265-28N</footprint>
+      <libsource lib="PIC16F1933-I_SO" part="PIC16F1933-I_SO" description=""/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E583AF2</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E64EE5A</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E614AE3</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E614ADD</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E614ACE</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E5F7E4E</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E5F7E48</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E5F7E2C</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E5F7E26</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E5E5429</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E5E5423</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>10 uH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E5E1147</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E5DE5A8</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>7.5 uH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E5CBC5A</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E5CA15D</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>UTI16PinsDIL</value>
+      <footprint>DIPS762W51P254L2032H457Q16</footprint>
+      <datasheet>3 A</datasheet>
+      <fields>
+        <field name="Field4">2-1571552-4</field>
+        <field name="Field5">Socket</field>
+        <field name="Field6">https://www.te.com/usa-en/product-2-1571552-4.html?te_bu=Cor&amp;te_type=disp&amp;te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&amp;elqCampaignId=32493</field>
+        <field name="Field7">Compliant with Exemptions</field>
+      </fields>
+      <libsource lib="2-1571552-4" part="UTI16PinsDIL" description=""/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E57E6FF</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>AP2127N-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2127.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AP2127N-3.3" description="300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 3.3V fixed positive output, SOT-23 package"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E59B3EC</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>FT230XS</value>
+      <footprint>Package_SO:SSOP-16_3.9x4.9mm_P0.635mm</footprint>
+      <datasheet>http://www.ftdichip.com/Products/ICs/FT230X.html</datasheet>
+      <libsource lib="Interface_USB" part="FT230XS" description="Full Speed USB to Basic UART, SSOP-16"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E57B531</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>27Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E5CC5E0</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>27Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5E5D6057</tstamp>
+    </comp>
+    <comp ref="miniUSB_0">
+      <value>500075-1517</value>
+      <footprint>MOLEX_500075-1517</footprint>
+      <libsource lib="500075-1517" part="500075-1517" description=""/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5EA87282</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/UTI/" tstamps="/5E569848/"/>
+      <tstamp>5F459709</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DMN1150UFB-7B</value>
+      <footprint>DFN100X60X53-3N</footprint>
+      <datasheet>https://www.digikey.ch/product-detail/de/diodes-incorporated/DMN1150UFB-7B/DMN1150UFB-7BDITR-ND/3986748</datasheet>
+      <libsource lib="DMN1150UFB-7B" part="DMN1150UFB-7B" description=""/>
+      <sheetpath names="/MOSFET_Switch/" tstamps="/5E5F905B/"/>
+      <tstamp>5E61F96A</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/MOSFET_Switch/" tstamps="/5E5F905B/"/>
+      <tstamp>5E6297F3</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>NVTR0202PLT1G</value>
+      <footprint>SSOT-3</footprint>
+      <datasheet>https://www.digikey.ch/product-detail/de/on-semiconductor/NVTR0202PLT1G/NVTR0202PLT1GOSDKR-ND/9089349</datasheet>
+      <libsource lib="FDN360P" part="NVTR0202PLT1G" description=""/>
+      <sheetpath names="/MOSFET_Switch/" tstamps="/5E5F905B/"/>
+      <tstamp>5E62C5F8</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/MOSFET_Switch/" tstamps="/5E5F905B/"/>
+      <tstamp>5E62F88D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2-1571552-4" part="UTI16PinsDIL">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">UTI16PinsDIL</field>
+        <field name="Footprint">DIPS762W51P254L2032H457Q16</field>
+        <field name="Datasheet">3 A</field>
+        <field name="Field4">2-1571552-4</field>
+        <field name="Field5">Socket</field>
+        <field name="Field6">https://www.te.com/usa-en/product-2-1571552-4.html?te_bu=Cor&amp;te_type=disp&amp;te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&amp;elqCampaignId=32493</field>
+        <field name="Field7">Compliant with Exemptions</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+        <pin num="4" name="SL1" type="passive"/>
+        <pin num="5" name="SL2" type="passive"/>
+        <pin num="6" name="SL3" type="passive"/>
+        <pin num="7" name="SL4" type="passive"/>
+        <pin num="8" name="VSS" type="passive"/>
+        <pin num="9" name="A" type="passive"/>
+        <pin num="10" name="SF" type="passive"/>
+        <pin num="11" name="PD" type="passive"/>
+        <pin num="12" name="OUT" type="passive"/>
+        <pin num="13" name="CML" type="passive"/>
+        <pin num="14" name="F" type="passive"/>
+        <pin num="15" name="E" type="passive"/>
+        <pin num="16" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="282834-4" part="282834-4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">282834-4</field>
+        <field name="Footprint">HDRV4W85P254_4X1_1062X650X1000</field>
+        <field name="Datasheet">282834-4</field>
+        <field name="Field4">Compliant with Exemptions</field>
+        <field name="Field5">2.54 mm[.1 in]</field>
+        <field name="Field6">4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="500075-1517" part="500075-1517">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">500075-1517</field>
+        <field name="Footprint">MOLEX_500075-1517</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D-" type="BiDi"/>
+        <pin num="D+" name="D+" type="BiDi"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="ID" name="ID" type="passive"/>
+        <pin num="VBUS" name="VBUS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_MAX31865-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_CERAMIC0805-NOOUTLINE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_MAX31865-eagle-import" part="DIODESOD-323">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODESOD-323</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_MAX31865-eagle-import" part="FERRITE-0805NO">
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FERRITE-0805NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P$1" type="passive"/>
+        <pin num="2" name="P$2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_MAX31865-eagle-import" part="RESISTOR0805_NOOUTLINE">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR0805_NOOUTLINE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_MAX31865-eagle-import" part="TEMP_MAX31865">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TEMP_MAX31865</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BIAS" type="output"/>
+        <pin num="2" name="REFIN+" type="unspc"/>
+        <pin num="3" name="REFIN-" type="unspc"/>
+        <pin num="4" name="ISENSOR" type="input"/>
+        <pin num="5" name="FORCE+" type="output"/>
+        <pin num="6" name="FORCE2" type="unspc"/>
+        <pin num="7" name="RTDIN+" type="unspc"/>
+        <pin num="8" name="RTDIN-" type="unspc"/>
+        <pin num="9" name="FORCE-" type="input"/>
+        <pin num="10" name="AGND@2" type="power_in"/>
+        <pin num="11" name="SDI" type="input"/>
+        <pin num="12" name="SCLK" type="input"/>
+        <pin num="13" name="CS" type="input"/>
+        <pin num="14" name="SDO" type="output"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="ANGD@1" type="power_in"/>
+        <pin num="17" name="NC" type="NotConnected"/>
+        <pin num="18" name="DRDY" type="output"/>
+        <pin num="19" name="DVDD" type="power_in"/>
+        <pin num="20" name="VDD" type="power_in"/>
+        <pin num="PAD" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_MAX31865-eagle-import" part="VREG_SOT23-5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VREG_SOT23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="P4" type="unspc"/>
+        <pin num="5" name="OUT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x07_Male">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x12_Odd_Even">
+      <description>Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x12_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DMN1150UFB-7B" part="DMN1150UFB-7B">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMN1150UFB-7B</field>
+        <field name="Footprint">DFN100X60X53-3N</field>
+        <field name="Datasheet">Diodes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="5KPxxCA">
+      <description>5000W bidirectional Transient Voltage Suppressor, P-600</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf</docs>
+      <footprints>
+        <fp>D?P600*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">5KPxxCA</field>
+        <field name="Footprint">Diode_THT:D_P600_R-6_P20.00mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FDN360P" part="NVTR0202PLT1G">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NVTR0202PLT1G</field>
+        <field name="Footprint">SSOT-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="SYM_Radioactive_Large">
+      <description>Radioactive/radiation warning symbol, large</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#SYM</field>
+        <field name="Value">SYM_Radioactive_Large</field>
+      </fields>
+    </libpart>
+    <libpart lib="Interface_USB" part="FT230XS">
+      <description>Full Speed USB to Basic UART, SSOP-16</description>
+      <docs>http://www.ftdichip.com/Products/ICs/FT230X.html</docs>
+      <footprints>
+        <fp>SSOP*3.9x4.9*P0.635mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT230XS</field>
+        <field name="Footprint">Package_SO:SSOP-16_3.9x4.9mm_P0.635mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="output"/>
+        <pin num="2" name="~RTS" type="input"/>
+        <pin num="3" name="VCCIO" type="power_in"/>
+        <pin num="4" name="RXD" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="~CTS" type="input"/>
+        <pin num="7" name="CBUS2" type="BiDi"/>
+        <pin num="8" name="USBDP" type="BiDi"/>
+        <pin num="9" name="USBDM" type="BiDi"/>
+        <pin num="10" name="3V3OUT" type="power_out"/>
+        <pin num="11" name="~RESET" type="input"/>
+        <pin num="12" name="VCC" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="CBUS1" type="BiDi"/>
+        <pin num="15" name="CBUS0" type="BiDi"/>
+        <pin num="16" name="CBUS3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PIC16F1933-I_SO" part="PIC16F1933-I_SO">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC16F1933-I_SO</field>
+        <field name="Footprint">SOIC127P1030X265-28N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~MCLR~/VPP" type="BiDi"/>
+        <pin num="2" name="RA0" type="input"/>
+        <pin num="3" name="RA1" type="input"/>
+        <pin num="4" name="RA2" type="input"/>
+        <pin num="5" name="RA3" type="input"/>
+        <pin num="6" name="RA4" type="BiDi"/>
+        <pin num="7" name="RA5" type="BiDi"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="OSC1/CLKIN" type="input"/>
+        <pin num="10" name="OSC2/CLKOUT" type="BiDi"/>
+        <pin num="11" name="RC0" type="BiDi"/>
+        <pin num="12" name="OUT/RC1" type="BiDi"/>
+        <pin num="13" name="OUT/RC2" type="BiDi"/>
+        <pin num="14" name="SYNC/RC3" type="BiDi"/>
+        <pin num="15" name="RC4" type="BiDi"/>
+        <pin num="16" name="RC5" type="BiDi"/>
+        <pin num="17" name="TxD/RC6" type="BiDi"/>
+        <pin num="18" name="RxD/RC7" type="BiDi"/>
+        <pin num="19" name="VSS" type="power_in"/>
+        <pin num="20" name="VDD" type="power_in"/>
+        <pin num="21" name="SEL4" type="input"/>
+        <pin num="22" name="SF" type="input"/>
+        <pin num="23" name="SEL3" type="BiDi"/>
+        <pin num="24" name="PD" type="input"/>
+        <pin num="25" name="SEL2" type="BiDi"/>
+        <pin num="26" name="SEL1" type="BiDi"/>
+        <pin num="27" name="RB6" type="BiDi"/>
+        <pin num="28" name="RB7" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="APE8865N-12-HF-3">
+      <aliases>
+        <alias>APE8865N-15-HF-3</alias>
+        <alias>APE8865N-16-HF-3</alias>
+        <alias>APE8865N-17-HF-3</alias>
+        <alias>APE8865N-18-HF-3</alias>
+        <alias>APE8865N-19-HF-3</alias>
+        <alias>APE8865N-20-HF-3</alias>
+        <alias>APE8865N-21-HF-3</alias>
+        <alias>APE8865N-22-HF-3</alias>
+        <alias>APE8865N-23-HF-3</alias>
+        <alias>APE8865N-24-HF-3</alias>
+        <alias>APE8865N-25-HF-3</alias>
+        <alias>APE8865N-26-HF-3</alias>
+        <alias>APE8865N-27-HF-3</alias>
+        <alias>APE8865N-28-HF-3</alias>
+        <alias>APE8865N-29-HF-3</alias>
+        <alias>APE8865N-30-HF-3</alias>
+        <alias>APE8865N-31-HF-3</alias>
+        <alias>APE8865N-32-HF-3</alias>
+        <alias>APE8865N-33-HF-3</alias>
+        <alias>AP2127N-1.0</alias>
+        <alias>AP2127N-1.2</alias>
+        <alias>AP2127N-1.5</alias>
+        <alias>AP2127N-1.8</alias>
+        <alias>AP2127N-2.5</alias>
+        <alias>AP2127N-2.8</alias>
+        <alias>AP2127N-3.0</alias>
+        <alias>AP2127N-3.3</alias>
+      </aliases>
+      <description>300 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23</description>
+      <docs>http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">APE8865N-12-HF-3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2-1571552-4">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/uti-symbols/2-1571552-4.lib</uri>
+    </library>
+    <library logical="282834-4">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/uti-symbols/282834-4.lib</uri>
+    </library>
+    <library logical="500075-1517">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/uti-symbols/500075-1517.lib</uri>
+    </library>
+    <library logical="Adafruit_MAX31865-eagle-import">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/Adafruit_MAX31865-eagle-import.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/kicad-symbols/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/kicad-symbols/Connector_Generic.lib</uri>
+    </library>
+    <library logical="DMN1150UFB-7B">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/uti-symbols/DMN1150UFB-7B.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/kicad-symbols/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/kicad-symbols/Diode.lib</uri>
+    </library>
+    <library logical="FDN360P">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/uti-symbols/FDN360P.lib</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/kicad-symbols/Graphic.lib</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/kicad-symbols/Interface_USB.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/kicad-symbols/Jumper.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/kicad-symbols/Mechanical.lib</uri>
+    </library>
+    <library logical="PIC16F1933-I_SO">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/uti-symbols/PIC16F1933-I_SO.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/home/pkoller/cernbox/Research/ArgonCube/Slow_Control/ArgonCubeSlowControl/PCB/kicad-symbols/Regulator_Linear.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="O2">
+      <node ref="U11" pin="5"/>
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="2" name="O13">
+      <node ref="C8" pin="2"/>
+      <node ref="U7" pin="8"/>
+      <node ref="J4" pin="10"/>
+    </net>
+    <net code="3" name="O9">
+      <node ref="J4" pin="12"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="4" name="O5">
+      <node ref="C5" pin="2"/>
+      <node ref="U6" pin="8"/>
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="5" name="O1">
+      <node ref="U6" pin="5"/>
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="6" name="O37">
+      <node ref="J5" pin="1"/>
+      <node ref="U10" pin="8"/>
+      <node ref="C17" pin="2"/>
+    </net>
+    <net code="7" name="O17">
+      <node ref="U8" pin="5"/>
+      <node ref="J4" pin="16"/>
+    </net>
+    <net code="8" name="O38">
+      <node ref="C32" pin="2"/>
+      <node ref="U15" pin="8"/>
+      <node ref="J5" pin="21"/>
+    </net>
+    <net code="9" name="O34">
+      <node ref="U15" pin="5"/>
+      <node ref="J5" pin="23"/>
+    </net>
+    <net code="10" name="O30">
+      <node ref="J5" pin="17"/>
+      <node ref="C29" pin="2"/>
+      <node ref="U14" pin="8"/>
+    </net>
+    <net code="11" name="O26">
+      <node ref="U14" pin="5"/>
+      <node ref="J5" pin="19"/>
+    </net>
+    <net code="12" name="O22">
+      <node ref="C26" pin="2"/>
+      <node ref="U13" pin="8"/>
+      <node ref="J5" pin="13"/>
+    </net>
+    <net code="13" name="O7">
+      <node ref="U6" pin="9"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="14" name="O29">
+      <node ref="J4" pin="19"/>
+      <node ref="U9" pin="8"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="15" name="O27">
+      <node ref="U9" pin="7"/>
+      <node ref="J4" pin="17"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="16" name="O23">
+      <node ref="U8" pin="9"/>
+      <node ref="J4" pin="13"/>
+    </net>
+    <net code="17" name="O19">
+      <node ref="J4" pin="15"/>
+      <node ref="U8" pin="7"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="18" name="O11">
+      <node ref="J4" pin="11"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="19" name="O3">
+      <node ref="J4" pin="7"/>
+      <node ref="U6" pin="7"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="20" name="O31">
+      <node ref="U9" pin="9"/>
+      <node ref="J4" pin="20"/>
+    </net>
+    <net code="21" name="O25">
+      <node ref="J4" pin="18"/>
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="22" name="O21">
+      <node ref="U8" pin="8"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J4" pin="14"/>
+    </net>
+    <net code="23" name="O14">
+      <node ref="U12" pin="8"/>
+      <node ref="J5" pin="11"/>
+      <node ref="C23" pin="2"/>
+    </net>
+    <net code="24" name="O28">
+      <node ref="C29" pin="1"/>
+      <node ref="U14" pin="7"/>
+      <node ref="J5" pin="20"/>
+    </net>
+    <net code="25" name="O24">
+      <node ref="U13" pin="9"/>
+      <node ref="J5" pin="14"/>
+    </net>
+    <net code="26" name="O16">
+      <node ref="J5" pin="12"/>
+      <node ref="U12" pin="9"/>
+    </net>
+    <net code="27" name="O10">
+      <node ref="J5" pin="10"/>
+      <node ref="U12" pin="5"/>
+    </net>
+    <net code="28" name="O15">
+      <node ref="U7" pin="9"/>
+      <node ref="J4" pin="9"/>
+    </net>
+    <net code="29" name="O12">
+      <node ref="U12" pin="7"/>
+      <node ref="C23" pin="1"/>
+      <node ref="J5" pin="9"/>
+    </net>
+    <net code="30" name="O18">
+      <node ref="U13" pin="5"/>
+      <node ref="J5" pin="15"/>
+    </net>
+    <net code="31" name="O8">
+      <node ref="J5" pin="5"/>
+      <node ref="U11" pin="9"/>
+    </net>
+    <net code="32" name="O35">
+      <node ref="C17" pin="1"/>
+      <node ref="J5" pin="3"/>
+      <node ref="U10" pin="7"/>
+    </net>
+    <net code="33" name="O4">
+      <node ref="J5" pin="8"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U11" pin="7"/>
+    </net>
+    <net code="34" name="O6">
+      <node ref="C20" pin="2"/>
+      <node ref="U11" pin="8"/>
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="35" name="5V">
+      <node ref="J1" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R47" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="36" name="5V_EXT_RPi">
+      <node ref="JP1" pin="2"/>
+      <node ref="J2" pin="39"/>
+      <node ref="J1" pin="3"/>
+      <node ref="D32" pin="1"/>
+    </net>
+    <net code="37" name="GND_EXT">
+      <node ref="U9" pin="10"/>
+      <node ref="U9" pin="15"/>
+      <node ref="U9" pin="16"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U14" pin="PAD"/>
+      <node ref="C27" pin="2"/>
+      <node ref="U19" pin="8"/>
+      <node ref="U10" pin="15"/>
+      <node ref="U13" pin="10"/>
+      <node ref="U16" pin="1"/>
+      <node ref="U15" pin="15"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U10" pin="PAD"/>
+      <node ref="U15" pin="10"/>
+      <node ref="U15" pin="16"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="U13" pin="15"/>
+      <node ref="U14" pin="16"/>
+      <node ref="U14" pin="10"/>
+      <node ref="U14" pin="15"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U15" pin="PAD"/>
+      <node ref="U8" pin="PAD"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="U10" pin="16"/>
+      <node ref="C28" pin="2"/>
+      <node ref="U8" pin="15"/>
+      <node ref="U8" pin="10"/>
+      <node ref="U8" pin="16"/>
+      <node ref="U9" pin="PAD"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U17" pin="5"/>
+      <node ref="J6" pin="3"/>
+      <node ref="U17" pin="13"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U13" pin="PAD"/>
+      <node ref="U12" pin="15"/>
+      <node ref="U12" pin="10"/>
+      <node ref="R44" pin="1"/>
+      <node ref="U12" pin="16"/>
+      <node ref="C41" pin="1"/>
+      <node ref="U18" pin="8"/>
+      <node ref="J4" pin="4"/>
+      <node ref="U19" pin="14"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="J3" pin="7"/>
+      <node ref="U13" pin="16"/>
+      <node ref="J4" pin="3"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U11" pin="PAD"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C43" pin="1"/>
+      <node ref="U12" pin="PAD"/>
+      <node ref="U18" pin="19"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U10" pin="10"/>
+      <node ref="U11" pin="15"/>
+      <node ref="R46" pin="1"/>
+      <node ref="U11" pin="10"/>
+      <node ref="U11" pin="16"/>
+      <node ref="U7" pin="16"/>
+      <node ref="U7" pin="10"/>
+      <node ref="U7" pin="PAD"/>
+      <node ref="U6" pin="15"/>
+      <node ref="U6" pin="16"/>
+      <node ref="U6" pin="PAD"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J4" pin="23"/>
+      <node ref="J4" pin="21"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="U6" pin="10"/>
+      <node ref="D31" pin="2"/>
+      <node ref="U7" pin="15"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="38" name="Net-(J2-Pad40)">
+      <node ref="J2" pin="40"/>
+    </net>
+    <net code="39" name="UTI_A">
+      <node ref="REF_C44" pin="1"/>
+      <node ref="U19" pin="9"/>
+      <node ref="J4" pin="24"/>
+    </net>
+    <net code="40" name="UTI_D">
+      <node ref="U19" pin="1"/>
+      <node ref="J4" pin="22"/>
+    </net>
+    <net code="41" name="Net-(J2-Pad15)">
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="42" name="CS9_5V">
+      <node ref="J2" pin="38"/>
+      <node ref="D30" pin="C"/>
+    </net>
+    <net code="43" name="CS8_5V">
+      <node ref="J2" pin="36"/>
+      <node ref="D27" pin="C"/>
+    </net>
+    <net code="44" name="CS7_5V">
+      <node ref="D24" pin="C"/>
+      <node ref="J2" pin="34"/>
+    </net>
+    <net code="45" name="CS6_5V">
+      <node ref="J2" pin="30"/>
+      <node ref="D21" pin="C"/>
+    </net>
+    <net code="46" name="CS5_5V">
+      <node ref="J2" pin="28"/>
+      <node ref="D18" pin="C"/>
+    </net>
+    <net code="47" name="Net-(J2-Pad37)">
+      <node ref="J2" pin="37"/>
+    </net>
+    <net code="48" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="49" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="50" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="51" name="Net-(J2-Pad17)">
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="52" name="Net-(J2-Pad19)">
+      <node ref="J2" pin="19"/>
+    </net>
+    <net code="53" name="Net-(J2-Pad23)">
+      <node ref="J2" pin="23"/>
+    </net>
+    <net code="54" name="Net-(J2-Pad25)">
+      <node ref="J2" pin="25"/>
+    </net>
+    <net code="55" name="Net-(J2-Pad29)">
+      <node ref="J2" pin="29"/>
+    </net>
+    <net code="56" name="Net-(J2-Pad35)">
+      <node ref="J2" pin="35"/>
+    </net>
+    <net code="57" name="Net-(J2-Pad14)">
+      <node ref="J2" pin="14"/>
+    </net>
+    <net code="58" name="Net-(J2-Pad24)">
+      <node ref="J2" pin="24"/>
+    </net>
+    <net code="59" name="CS0_5V">
+      <node ref="D3" pin="C"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="60" name="GPIO_3V3">
+      <node ref="R46" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="61" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="62" name="Net-(J2-Pad11)">
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="63" name="Net-(J2-Pad13)">
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="64" name="Net-(J2-Pad21)">
+      <node ref="J2" pin="21"/>
+    </net>
+    <net code="65" name="CS4_5V">
+      <node ref="J2" pin="12"/>
+      <node ref="D15" pin="C"/>
+    </net>
+    <net code="66" name="CS3_5V">
+      <node ref="D12" pin="C"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="67" name="CS2_5V">
+      <node ref="D9" pin="C"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="68" name="CS1_5V">
+      <node ref="D6" pin="C"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="69" name="Net-(J2-Pad27)">
+      <node ref="J2" pin="27"/>
+    </net>
+    <net code="70" name="Net-(J2-Pad31)">
+      <node ref="J2" pin="31"/>
+    </net>
+    <net code="71" name="Net-(J2-Pad33)">
+      <node ref="J2" pin="33"/>
+    </net>
+    <net code="72" name="VDD">
+      <node ref="U11" pin="19"/>
+      <node ref="FB7" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="R39" pin="2"/>
+      <node ref="FB10" pin="2"/>
+      <node ref="U14" pin="19"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="FB6" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R31" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U12" pin="19"/>
+      <node ref="U13" pin="19"/>
+      <node ref="U15" pin="19"/>
+      <node ref="U5" pin="5"/>
+      <node ref="R35" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="FB8" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="U6" pin="19"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R34" pin="2"/>
+      <node ref="R33" pin="2"/>
+      <node ref="FB9" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="FB4" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="U9" pin="19"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="FB5" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U7" pin="19"/>
+      <node ref="C9" pin="1"/>
+      <node ref="FB3" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U10" pin="19"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U8" pin="19"/>
+    </net>
+    <net code="73" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="74" name="O40">
+      <node ref="J5" pin="22"/>
+      <node ref="U15" pin="9"/>
+    </net>
+    <net code="75" name="O36">
+      <node ref="U15" pin="7"/>
+      <node ref="J5" pin="24"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="76" name="O32">
+      <node ref="J5" pin="18"/>
+      <node ref="U14" pin="9"/>
+    </net>
+    <net code="77" name="O20">
+      <node ref="C26" pin="1"/>
+      <node ref="U13" pin="7"/>
+      <node ref="J5" pin="16"/>
+    </net>
+    <net code="78" name="Net-(J2-Pad32)">
+      <node ref="J2" pin="32"/>
+    </net>
+    <net code="79" name="Net-(J2-Pad16)">
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="80" name="O39">
+      <node ref="J5" pin="2"/>
+      <node ref="U10" pin="9"/>
+    </net>
+    <net code="81" name="O33">
+      <node ref="J5" pin="4"/>
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="82" name="CLK_5V">
+      <node ref="D5" pin="C"/>
+      <node ref="D26" pin="C"/>
+      <node ref="D29" pin="C"/>
+      <node ref="D14" pin="C"/>
+      <node ref="D11" pin="C"/>
+      <node ref="D8" pin="C"/>
+      <node ref="D23" pin="C"/>
+      <node ref="J2" pin="18"/>
+      <node ref="D2" pin="C"/>
+      <node ref="D17" pin="C"/>
+      <node ref="D20" pin="C"/>
+    </net>
+    <net code="83" name="RDY">
+      <node ref="U12" pin="18"/>
+      <node ref="U8" pin="18"/>
+      <node ref="U10" pin="18"/>
+      <node ref="U14" pin="18"/>
+      <node ref="J2" pin="26"/>
+      <node ref="U11" pin="18"/>
+      <node ref="U7" pin="18"/>
+      <node ref="U13" pin="18"/>
+      <node ref="U15" pin="18"/>
+      <node ref="U9" pin="18"/>
+      <node ref="U6" pin="18"/>
+    </net>
+    <net code="84" name="SDO">
+      <node ref="U12" pin="14"/>
+      <node ref="U11" pin="14"/>
+      <node ref="U9" pin="14"/>
+      <node ref="U14" pin="14"/>
+      <node ref="J2" pin="20"/>
+      <node ref="U7" pin="14"/>
+      <node ref="U10" pin="14"/>
+      <node ref="U13" pin="14"/>
+      <node ref="U6" pin="14"/>
+      <node ref="U15" pin="14"/>
+      <node ref="U8" pin="14"/>
+    </net>
+    <net code="85" name="SDI_5V">
+      <node ref="D10" pin="C"/>
+      <node ref="D22" pin="C"/>
+      <node ref="D19" pin="C"/>
+      <node ref="D25" pin="C"/>
+      <node ref="D28" pin="C"/>
+      <node ref="D16" pin="C"/>
+      <node ref="D7" pin="C"/>
+      <node ref="D1" pin="C"/>
+      <node ref="J2" pin="22"/>
+      <node ref="D13" pin="C"/>
+      <node ref="D4" pin="C"/>
+    </net>
+    <net code="86" name="Net-(U6-Pad17)">
+      <node ref="U6" pin="17"/>
+    </net>
+    <net code="87" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="88" name="Net-(C4-Pad1)">
+      <node ref="FB1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U6" pin="20"/>
+    </net>
+    <net code="89" name="Net-(R4-Pad1)">
+      <node ref="U6" pin="3"/>
+      <node ref="U6" pin="4"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="90" name="Net-(U6-Pad6)">
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="91" name="Net-(D1-PadA)">
+      <node ref="D1" pin="A"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="92" name="Net-(D3-PadA)">
+      <node ref="D3" pin="A"/>
+      <node ref="U6" pin="13"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="93" name="Net-(D2-PadA)">
+      <node ref="U6" pin="12"/>
+      <node ref="D2" pin="A"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="94" name="Net-(D5-PadA)">
+      <node ref="U7" pin="12"/>
+      <node ref="R5" pin="1"/>
+      <node ref="D5" pin="A"/>
+    </net>
+    <net code="95" name="Net-(D6-PadA)">
+      <node ref="D6" pin="A"/>
+      <node ref="U7" pin="13"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="96" name="Net-(U7-Pad6)">
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="97" name="Net-(R8-Pad2)">
+      <node ref="U7" pin="2"/>
+      <node ref="U7" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="98" name="Net-(R8-Pad1)">
+      <node ref="U7" pin="3"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="99" name="Net-(U7-Pad17)">
+      <node ref="U7" pin="17"/>
+    </net>
+    <net code="100" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="U7" pin="20"/>
+      <node ref="FB2" pin="1"/>
+    </net>
+    <net code="101" name="Net-(D4-PadA)">
+      <node ref="U7" pin="11"/>
+      <node ref="R7" pin="1"/>
+      <node ref="D4" pin="A"/>
+    </net>
+    <net code="102" name="Net-(D8-PadA)">
+      <node ref="U8" pin="12"/>
+      <node ref="D8" pin="A"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="103" name="Net-(U8-Pad6)">
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="104" name="Net-(R12-Pad2)">
+      <node ref="U8" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="105" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="U8" pin="4"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="106" name="Net-(D9-PadA)">
+      <node ref="R10" pin="1"/>
+      <node ref="U8" pin="13"/>
+      <node ref="D9" pin="A"/>
+    </net>
+    <net code="107" name="Net-(D7-PadA)">
+      <node ref="R11" pin="1"/>
+      <node ref="U8" pin="11"/>
+      <node ref="D7" pin="A"/>
+    </net>
+    <net code="108" name="Net-(U8-Pad17)">
+      <node ref="U8" pin="17"/>
+    </net>
+    <net code="109" name="Net-(C10-Pad1)">
+      <node ref="FB3" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U8" pin="20"/>
+    </net>
+    <net code="110" name="Net-(D11-PadA)">
+      <node ref="U9" pin="12"/>
+      <node ref="D11" pin="A"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="111" name="Net-(U9-Pad6)">
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="112" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="113" name="Net-(R16-Pad1)">
+      <node ref="U9" pin="3"/>
+      <node ref="U9" pin="4"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="114" name="Net-(D12-PadA)">
+      <node ref="D12" pin="A"/>
+      <node ref="U9" pin="13"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="115" name="Net-(D10-PadA)">
+      <node ref="U9" pin="11"/>
+      <node ref="R15" pin="1"/>
+      <node ref="D10" pin="A"/>
+    </net>
+    <net code="116" name="Net-(U9-Pad17)">
+      <node ref="U9" pin="17"/>
+    </net>
+    <net code="117" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="U9" pin="20"/>
+      <node ref="FB4" pin="1"/>
+    </net>
+    <net code="118" name="Net-(D14-PadA)">
+      <node ref="U10" pin="12"/>
+      <node ref="D14" pin="A"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="119" name="Net-(U10-Pad6)">
+      <node ref="U10" pin="6"/>
+    </net>
+    <net code="120" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2"/>
+      <node ref="U10" pin="1"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="121" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="U10" pin="4"/>
+      <node ref="U10" pin="3"/>
+    </net>
+    <net code="122" name="Net-(D15-PadA)">
+      <node ref="D15" pin="A"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U10" pin="13"/>
+    </net>
+    <net code="123" name="Net-(D13-PadA)">
+      <node ref="U10" pin="11"/>
+      <node ref="R19" pin="1"/>
+      <node ref="D13" pin="A"/>
+    </net>
+    <net code="124" name="Net-(U10-Pad17)">
+      <node ref="U10" pin="17"/>
+    </net>
+    <net code="125" name="Net-(C16-Pad1)">
+      <node ref="FB5" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U10" pin="20"/>
+    </net>
+    <net code="126" name="Net-(D17-PadA)">
+      <node ref="D17" pin="A"/>
+      <node ref="R21" pin="1"/>
+      <node ref="U11" pin="12"/>
+    </net>
+    <net code="127" name="Net-(D18-PadA)">
+      <node ref="U11" pin="13"/>
+      <node ref="D18" pin="A"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="128" name="Net-(U11-Pad6)">
+      <node ref="U11" pin="6"/>
+    </net>
+    <net code="129" name="Net-(R24-Pad2)">
+      <node ref="U11" pin="1"/>
+      <node ref="U11" pin="2"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="130" name="Net-(R24-Pad1)">
+      <node ref="U11" pin="4"/>
+      <node ref="U11" pin="3"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="131" name="Net-(U11-Pad17)">
+      <node ref="U11" pin="17"/>
+    </net>
+    <net code="132" name="Net-(C19-Pad1)">
+      <node ref="FB6" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U11" pin="20"/>
+    </net>
+    <net code="133" name="Net-(D16-PadA)">
+      <node ref="R23" pin="1"/>
+      <node ref="D16" pin="A"/>
+      <node ref="U11" pin="11"/>
+    </net>
+    <net code="134" name="Net-(D20-PadA)">
+      <node ref="R25" pin="1"/>
+      <node ref="D20" pin="A"/>
+      <node ref="U12" pin="12"/>
+    </net>
+    <net code="135" name="Net-(D21-PadA)">
+      <node ref="D21" pin="A"/>
+      <node ref="R26" pin="1"/>
+      <node ref="U12" pin="13"/>
+    </net>
+    <net code="136" name="Net-(U12-Pad6)">
+      <node ref="U12" pin="6"/>
+    </net>
+    <net code="137" name="Net-(R28-Pad2)">
+      <node ref="U12" pin="1"/>
+      <node ref="U12" pin="2"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="138" name="Net-(R28-Pad1)">
+      <node ref="R28" pin="1"/>
+      <node ref="U12" pin="4"/>
+      <node ref="U12" pin="3"/>
+    </net>
+    <net code="139" name="Net-(U12-Pad17)">
+      <node ref="U12" pin="17"/>
+    </net>
+    <net code="140" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1"/>
+      <node ref="U12" pin="20"/>
+      <node ref="FB7" pin="1"/>
+    </net>
+    <net code="141" name="Net-(D19-PadA)">
+      <node ref="D19" pin="A"/>
+      <node ref="U12" pin="11"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="142" name="Net-(D23-PadA)">
+      <node ref="U13" pin="12"/>
+      <node ref="D23" pin="A"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="143" name="Net-(D24-PadA)">
+      <node ref="U13" pin="13"/>
+      <node ref="R30" pin="1"/>
+      <node ref="D24" pin="A"/>
+    </net>
+    <net code="144" name="Net-(U13-Pad6)">
+      <node ref="U13" pin="6"/>
+    </net>
+    <net code="145" name="Net-(R32-Pad2)">
+      <node ref="U13" pin="1"/>
+      <node ref="R32" pin="2"/>
+      <node ref="U13" pin="2"/>
+    </net>
+    <net code="146" name="Net-(R32-Pad1)">
+      <node ref="R32" pin="1"/>
+      <node ref="U13" pin="3"/>
+      <node ref="U13" pin="4"/>
+    </net>
+    <net code="147" name="Net-(U13-Pad17)">
+      <node ref="U13" pin="17"/>
+    </net>
+    <net code="148" name="Net-(C25-Pad1)">
+      <node ref="U13" pin="20"/>
+      <node ref="FB8" pin="1"/>
+      <node ref="C25" pin="1"/>
+    </net>
+    <net code="149" name="Net-(D22-PadA)">
+      <node ref="R31" pin="1"/>
+      <node ref="U13" pin="11"/>
+      <node ref="D22" pin="A"/>
+    </net>
+    <net code="150" name="Net-(D26-PadA)">
+      <node ref="U14" pin="12"/>
+      <node ref="D26" pin="A"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="151" name="Net-(D27-PadA)">
+      <node ref="U14" pin="13"/>
+      <node ref="D27" pin="A"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="152" name="Net-(U14-Pad6)">
+      <node ref="U14" pin="6"/>
+    </net>
+    <net code="153" name="Net-(R36-Pad2)">
+      <node ref="R36" pin="2"/>
+      <node ref="U14" pin="2"/>
+      <node ref="U14" pin="1"/>
+    </net>
+    <net code="154" name="Net-(R36-Pad1)">
+      <node ref="U14" pin="3"/>
+      <node ref="U14" pin="4"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="155" name="Net-(D25-PadA)">
+      <node ref="D25" pin="A"/>
+      <node ref="U14" pin="11"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="156" name="Net-(U14-Pad17)">
+      <node ref="U14" pin="17"/>
+    </net>
+    <net code="157" name="Net-(C28-Pad1)">
+      <node ref="U14" pin="20"/>
+      <node ref="FB9" pin="1"/>
+      <node ref="C28" pin="1"/>
+    </net>
+    <net code="158" name="Net-(D29-PadA)">
+      <node ref="U15" pin="12"/>
+      <node ref="R37" pin="1"/>
+      <node ref="D29" pin="A"/>
+    </net>
+    <net code="159" name="Net-(D30-PadA)">
+      <node ref="U15" pin="13"/>
+      <node ref="D30" pin="A"/>
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="160" name="Net-(U15-Pad6)">
+      <node ref="U15" pin="6"/>
+    </net>
+    <net code="161" name="Net-(R40-Pad2)">
+      <node ref="U15" pin="2"/>
+      <node ref="U15" pin="1"/>
+      <node ref="R40" pin="2"/>
+    </net>
+    <net code="162" name="Net-(R40-Pad1)">
+      <node ref="U15" pin="3"/>
+      <node ref="U15" pin="4"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="163" name="Net-(U15-Pad17)">
+      <node ref="U15" pin="17"/>
+    </net>
+    <net code="164" name="Net-(C31-Pad1)">
+      <node ref="FB10" pin="1"/>
+      <node ref="U15" pin="20"/>
+      <node ref="C31" pin="1"/>
+    </net>
+    <net code="165" name="Net-(D28-PadA)">
+      <node ref="U15" pin="11"/>
+      <node ref="D28" pin="A"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="166" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2"/>
+      <node ref="U17" pin="12"/>
+    </net>
+    <net code="167" name="Net-(miniUSB_0-PadID)">
+      <node ref="miniUSB_0" pin="ID"/>
+    </net>
+    <net code="168" name="Net-(R41-Pad1)">
+      <node ref="miniUSB_0" pin="D"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="169" name="Net-(U18-Pad21)">
+      <node ref="U19" pin="7"/>
+      <node ref="U18" pin="21"/>
+    </net>
+    <net code="170" name="Net-(U19-Pad3)">
+      <node ref="U19" pin="3"/>
+    </net>
+    <net code="171" name="Net-(miniUSB_0-PadVBUS)">
+      <node ref="miniUSB_0" pin="VBUS"/>
+    </net>
+    <net code="172" name="Net-(C37-Pad2)">
+      <node ref="U19" pin="16"/>
+      <node ref="R45" pin="1"/>
+      <node ref="U16" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C37" pin="2"/>
+    </net>
+    <net code="173" name="MOSFET_5V">
+      <node ref="Q2" pin="3"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C34" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C33" pin="2"/>
+    </net>
+    <net code="174" name="Net-(C35-Pad2)">
+      <node ref="C36" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="U16" pin="3"/>
+    </net>
+    <net code="175" name="Net-(J6-Pad5)">
+      <node ref="U18" pin="27"/>
+      <node ref="U19" pin="13"/>
+      <node ref="J6" pin="5"/>
+    </net>
+    <net code="176" name="Net-(J6-Pad4)">
+      <node ref="J6" pin="4"/>
+      <node ref="U18" pin="28"/>
+    </net>
+    <net code="177" name="Net-(miniUSB_0-PadGND)">
+      <node ref="miniUSB_0" pin="GND"/>
+    </net>
+    <net code="178" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2"/>
+      <node ref="U18" pin="20"/>
+    </net>
+    <net code="179" name="Net-(R41-Pad2)">
+      <node ref="U17" pin="9"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="180" name="Net-(R42-Pad2)">
+      <node ref="U17" pin="8"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="181" name="Net-(U17-Pad7)">
+      <node ref="U17" pin="7"/>
+    </net>
+    <net code="182" name="Net-(U17-Pad6)">
+      <node ref="U17" pin="6"/>
+    </net>
+    <net code="183" name="Net-(U17-Pad4)">
+      <node ref="U17" pin="4"/>
+      <node ref="U18" pin="18"/>
+    </net>
+    <net code="184" name="Net-(U17-Pad2)">
+      <node ref="U17" pin="2"/>
+    </net>
+    <net code="185" name="Net-(U17-Pad16)">
+      <node ref="U17" pin="16"/>
+    </net>
+    <net code="186" name="Net-(U17-Pad14)">
+      <node ref="U17" pin="14"/>
+    </net>
+    <net code="187" name="Net-(U17-Pad15)">
+      <node ref="U18" pin="9"/>
+      <node ref="U17" pin="15"/>
+    </net>
+    <net code="188" name="Net-(U17-Pad1)">
+      <node ref="U17" pin="1"/>
+      <node ref="U18" pin="17"/>
+    </net>
+    <net code="189" name="Net-(R42-Pad1)">
+      <node ref="miniUSB_0" pin="D+"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="190" name="Net-(J3-Pad3)">
+      <node ref="U18" pin="4"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="191" name="Net-(J3-Pad5)">
+      <node ref="J3" pin="5"/>
+      <node ref="U18" pin="14"/>
+    </net>
+    <net code="192" name="Net-(U18-Pad7)">
+      <node ref="U18" pin="7"/>
+    </net>
+    <net code="193" name="Net-(U18-Pad6)">
+      <node ref="U18" pin="6"/>
+    </net>
+    <net code="194" name="Net-(J3-Pad1)">
+      <node ref="U18" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="195" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="U18" pin="3"/>
+    </net>
+    <net code="196" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+      <node ref="U18" pin="5"/>
+    </net>
+    <net code="197" name="Net-(U18-Pad11)">
+      <node ref="U18" pin="11"/>
+    </net>
+    <net code="198" name="Net-(U18-Pad23)">
+      <node ref="U18" pin="23"/>
+      <node ref="U19" pin="6"/>
+    </net>
+    <net code="199" name="Net-(U18-Pad25)">
+      <node ref="U18" pin="25"/>
+      <node ref="U19" pin="5"/>
+    </net>
+    <net code="200" name="Net-(U18-Pad26)">
+      <node ref="U18" pin="26"/>
+      <node ref="U19" pin="4"/>
+    </net>
+    <net code="201" name="Net-(U18-Pad22)">
+      <node ref="U19" pin="10"/>
+      <node ref="U18" pin="22"/>
+    </net>
+    <net code="202" name="Net-(U18-Pad24)">
+      <node ref="U18" pin="24"/>
+      <node ref="U19" pin="11"/>
+    </net>
+    <net code="203" name="Net-(U18-Pad10)">
+      <node ref="U18" pin="10"/>
+    </net>
+    <net code="204" name="Net-(U18-Pad15)">
+      <node ref="U18" pin="15"/>
+    </net>
+    <net code="205" name="Net-(U18-Pad16)">
+      <node ref="U18" pin="16"/>
+    </net>
+    <net code="206" name="Net-(J3-Pad6)">
+      <node ref="U18" pin="12"/>
+      <node ref="U18" pin="13"/>
+      <node ref="J3" pin="6"/>
+      <node ref="U19" pin="12"/>
+    </net>
+    <net code="207" name="Net-(R44-Pad2)">
+      <node ref="U19" pin="15"/>
+      <node ref="R45" pin="2"/>
+      <node ref="R44" pin="2"/>
+    </net>
+    <net code="208" name="Net-(REF_C44-Pad2)">
+      <node ref="U19" pin="2"/>
+      <node ref="REF_C44" pin="2"/>
+    </net>
+    <net code="209" name="Net-(C41-Pad2)">
+      <node ref="U17" pin="11"/>
+      <node ref="U17" pin="3"/>
+      <node ref="U17" pin="10"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="R43" pin="1"/>
+    </net>
+    <net code="210" name="Net-(R43-Pad2)">
+      <node ref="R43" pin="2"/>
+      <node ref="U18" pin="1"/>
+    </net>
+    <net code="211" name="Net-(Q1-Pad3)">
+      <node ref="R47" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+  </nets>
+</export>
