@@ -6,9 +6,15 @@ if __name__ == "__main__":
 
     import max31865
 
+    db_url  = "http://lhepdaq2.unibe.ch"
+    db_port = 8086
+    db_name = "viper_run_april_18"
+
     misoPin = 9
     mosiPin = 10
     clkPin  = 11
+
+    n_sens = 10
 
     cs0Pin = 26
     cs1Pin = 19
@@ -34,5 +40,8 @@ if __name__ == "__main__":
 
     while 1:
         time.sleep(1)
-        tempC = sens0.readTemp()
+        for sens in range(n_sens):
+            temp_C = eval('sens'+str(sens)+'.readTemp()')
+            #post = "temp,sens=" + str(sens) + " value=" + str(temp_C)
+            #subprocess.call(["curl", "-i", "-XPOST", db_url+":"+str(db_port)+"/write?db="+db_name, "--data-binary", post])
     GPIO.cleanup()

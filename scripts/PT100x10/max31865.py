@@ -115,8 +115,6 @@ class max31865(object):
 		if ((status & 0x04) == 1):
 			raise FaultError("Overvoltage or Undervoltage Error")
 
-                GPIO.cleanup()
-
                 return temp_C
 
         def writeRegister(self, regNum, dataByte):
