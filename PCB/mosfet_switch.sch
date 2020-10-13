@@ -29,7 +29,7 @@ F 3 "https://www.digikey.ch/product-detail/de/diodes-incorporated/DMN1150UFB-7B/
 	1    5900 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 5000 4000 0    50   Input ~ 0
+Text GLabel 6000 4600 3    50   Input ~ 0
 GPIO_3V3
 $Comp
 L Device:R R?
@@ -55,17 +55,16 @@ Wire Wire Line
 $Comp
 L Adafruit_MAX31865-eagle-import:GND #0111
 U 1 1 5E62A8A8
-P 6000 4700
-F 0 "#0111" H 6050 4750 50  0001 C CNN
-F 1 "GND" H 6078 4738 42  0000 L CNN
-F 2 "" H 6000 4700 50  0001 C CNN
-F 3 "" H 6000 4700 50  0001 C CNN
-	1    6000 4700
-	1    0    0    -1  
+P 4900 4000
+F 0 "#0111" H 4950 4050 50  0001 C CNN
+F 1 "GND" H 4978 4038 42  0000 L CNN
+F 2 "" H 4900 4000 50  0001 C CNN
+F 3 "" H 4900 4000 50  0001 C CNN
+	1    4900 4000
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5400 4000 5000 4000
-Connection ~ 5400 4000
+	5000 4000 5400 4000
 $Comp
 L FDN360P:NVTR0202PLT1G Q2
 U 1 1 5E62C5F8
@@ -109,4 +108,5 @@ Wire Wire Line
 Wire Wire Line
 	6000 4400 6000 4500
 Connection ~ 6000 4500
+Connection ~ 5400 4000
 $EndSCHEMATC

@@ -676,37 +676,11 @@ Wire Wire Line
 	1950 3350 2150 3350
 Wire Wire Line
 	1950 4250 2150 4250
-$Comp
-L Device:Fuse F1
-U 1 1 5F261767
-P 2200 2500
-F 0 "F1" V 2397 2500 50  0000 C CNN
-F 1 "100 mA" V 2306 2500 50  0000 C CNN
-F 2 "Fuse:Fuse_0603_1608Metric" V 2130 2500 50  0001 C CNN
-F 3 "http://datasheets.avx.com/AccuGuardLC_0603.pdf" H 2200 2500 50  0001 C CNN
-	1    2200 2500
-	0    -1   -1   0   
-$EndComp
 Connection ~ 1950 3350
-$Comp
-L Device:Fuse F2
-U 1 1 5F26CF27
-P 2200 2900
-F 0 "F2" V 2397 2900 50  0000 C CNN
-F 1 "2 A" V 2306 2900 50  0000 C CNN
-F 2 "Fuse:Fuse_0603_1608Metric" V 2130 2900 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_sfp_datasheet.pdf.pdf" H 2200 2900 50  0001 C CNN
-	1    2200 2900
-	0    -1   -1   0   
-$EndComp
 Text GLabel 2550 2500 2    50   Input ~ 0
 5V_EXT_FUSED
-Wire Wire Line
-	2350 2500 2550 2500
 Text GLabel 2550 2900 2    50   Input ~ 0
 5V_EXT_RPi_FUSED
-Wire Wire Line
-	2350 2900 2550 2900
 Text GLabel 1600 3350 0    50   Input ~ 0
 5V_EXT_FUSED
 Text GLabel 1600 4250 0    50   Input ~ 0
@@ -730,13 +704,7 @@ $EndComp
 Wire Wire Line
 	1450 2500 1850 2500
 Wire Wire Line
-	1850 2500 2050 2500
-Connection ~ 1850 2500
-Wire Wire Line
 	1450 2900 1850 2900
-Wire Wire Line
-	2050 2900 1850 2900
-Connection ~ 1850 2900
 $Comp
 L Adafruit_MAX31865-eagle-import:GND #U$0105
 U 1 1 5F1BDA1C
@@ -814,4 +782,10 @@ F 3 "" H 7200 4700 50  0001 C CNN
 	1    7200 4700
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	1850 2500 2550 2500
+Connection ~ 1850 2500
+Wire Wire Line
+	2550 2900 1850 2900
+Connection ~ 1850 2900
 $EndSCHEMATC
