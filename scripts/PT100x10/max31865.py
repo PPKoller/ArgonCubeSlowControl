@@ -165,7 +165,7 @@ class max31865(object):
 		return byte
 
 	def calcPT100Temp(self, RTD_ADC_Code):
-		R_REF = 400.0 # Reference Resistor
+		R_REF = 430.0 # Reference Resistor
 		Res0 = 100.0; # Resistance at 0 degC for 400ohm R_Ref
 		a = .00390830
 		b = -.000000577500
@@ -193,10 +193,13 @@ class max31865(object):
 		print "Straight Line Approx. Temp: %f degC" % temp_C_line
 		print "Callendar-Van Dusen Temp (degC > 0): %f degC" % temp_C
 		#print "Solving Full Callendar-Van Dusen using numpy: %f" %  temp_C_numpy
-		if (temp_C < 0): #use straight line approximation if less than 0
+		#if (temp_C < 0): #use straight line approximation if less than 0
 			# Can also use python lib numpy to solve cubic
 			# Should never get here in this application
-			temp_C = (RTD_ADC_Code/32) - 256
+			#temp_C = (RTD_ADC_Code/32) - 256
+		if (RTD_ADC_Code < 7629): #use tuned straight line approximation if less than 0
+			temp_C = 0.2866 - (7620 - RTD_ADC_Code)*0.0319
+
 		return temp_C
 
 class FaultError(Exception):
