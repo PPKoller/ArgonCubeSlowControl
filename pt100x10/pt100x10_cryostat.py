@@ -6,9 +6,11 @@ if __name__ == "__main__":
 
     import max31865
 
-    db_url  = "http://lhepdaq2.unibe.ch"
+    db_url  = "http://130.92.128.162"
     db_port = 8086
-    db_name = "viper_run_april_18"
+    db_name = "singlemodule_nov2020"
+
+    pos = "cryostat"
 
     misoPin = 9
     mosiPin = 10
@@ -27,6 +29,8 @@ if __name__ == "__main__":
     cs8Pin = 03
     cs9Pin = 02
 
+    utiPow = 21
+
     sens0 = max31865.max31865(cs0Pin,misoPin,mosiPin,clkPin)
     sens1 = max31865.max31865(cs1Pin,misoPin,mosiPin,clkPin)
     sens2 = max31865.max31865(cs2Pin,misoPin,mosiPin,clkPin)
@@ -40,8 +44,9 @@ if __name__ == "__main__":
 
     while 1:
         time.sleep(1)
-        for sens in range(n_sens):
+        for sens in [0,1,2,3,4,5,7,8,9]:
             temp_C = eval('sens'+str(sens)+'.readTemp()')
-            #post = "temp,sens=" + str(sens) + " value=" + str(temp_C)
-            #subprocess.call(["curl", "-i", "-XPOST", db_url+":"+str(db_port)+"/write?db="+db_name, "--data-binary", post])
+            print("sens%d: %f degC\n" % (sens,temp_C))
+            post = "temp,sens=" + str(sens) + ",pos=" + str(pos) + " value=" + str(temp_C)
+            subprocess.call(["curl", "-i", "-XPOST", db_url+":"+str(db_port)+"/write?db="+db_name, "--data-binary", post])
     GPIO.cleanup()
